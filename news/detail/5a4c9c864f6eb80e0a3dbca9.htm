@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>保险，守护幸福的底线-理享家</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="理享家">
+    <script src="../../static/js/public/jquery-3.1.1.min.js"></script>
+     
+<meta name="keywords" content="理财咨询,基金理财资讯,最新金融资讯,金融资讯平台,现货时报财富资讯,苏宁财富资讯,东方财富资讯,今日财经资讯" />
+<meta name="description" content=每个人都在为幸福划线，一个总是觉得很痛苦的人，往往就是把幸福的底线划得太高，期望值过高，现实才显得不如意。但像史铁生这样，一定吃尽了的苦头，所以才把自己的“幸福底线”定得如此之低。只是他们意识到什么是真正幸福的时候，或许生命留给他们的时间已经少得不能再少。 />
+<link rel='stylesheet' href='../../static/css/frontend/news1.css' />
+
+    <link rel="shortcut icon" href="../../static/img/frontend/public/icon.png"/>
+    <link rel="stylesheet" href="../../static/css/frontend/base.css"/>
+    <link rel="stylesheet" href="../../static/css/frontend/header.css"/>
+    <link rel="stylesheet" href="../../static/css/frontend/footer.css"/>
+    <link rel='stylesheet' href='../../static/css/frontend/form.css'/>
+    <script name="baidu-koubei-verification" src="../../ikoubei.baidu.com/embed/8cd3a98723f1342aaa88d882864aa33e.JS"></script>
+    <style>
+        .content {
+            position: relative;
+        }
+
+        .link {
+            width: 1200px;
+            margin: 0 auto;
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: normal;
+            position: absolute;
+            top:20px;
+            left:50px;
+            visibility:hidden;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div id="baseForm">
+    <div class="form form1">
+    <div class="mask"></div>
+   <form class="formBox" id="form" method="post">
+      <div class="formTitle">
+         <img src="../../static/img/frontend/form/formTop.png" />
+      </div>
+      <ul class="formCont">
+         <li>
+            <span>如何称呼您<i>*</i></span>
+            <input type="text" name="name" id="input_name">
+         </li>
+         <li>
+            <span>性别<i>*</i></span>
+            <span class="mr"><input type="radio" name="sex" checked value="男" /> 男</span>
+            <span><input type="radio" name="sex" value="女"> 女</span>
+         </li>
+         <li>
+            <span>联系电话<i>*</i></span>
+            <input type="phone" name="phone" id="input_phone">
+         </li>
+         <!--<li>-->
+            <!--<span>电子邮箱<i>*</i></span>-->
+            <!--<input type="email" name="email" required>-->
+         <!--</li>-->
+         <li>
+            <span>您的微信</span>
+            <input type="text" name="wechat" id="input_wechat">
+         </li>
+         <li class="tips">
+            <b>!</b>我们会在第二个工作日9:00-18:00与您联系
+         </li>
+         <li class="btn">
+            <span class="form1Cancel" id="formCancel">取消</span>
+            <button type="submit" class="form1Submit">提交</button>
+         </li>
+      </ul>
+   </form>
+</div>
+
+
+
+</div>
+<div id="baseForm1">
+    <div class="form form2">
+    <div class="mask"></div>
+   <form class="formBox" id="form1" method="post">
+      <div class="formTitle">
+         <img src="../../static/img/frontend/form/formTop.png" alt="">
+      </div>
+      <ul class="formCont">
+         <h3>被保人信息</h3>
+          <li>
+              <span>保险公司</span>
+              <input type="text" value="" name="company" disabled>
+          </li>
+          <li>
+              <span>保险产品</span>
+              <input type="text" value="" name="product" disabled>
+          </li>
+          <li style="margin: 19px 73px;">
+              <span>认购货币</span>
+              
+          </li>
+          <li>
+              <span>缴费年限</span>
+              <select name="moneyYear">
+                  
+              </select>
+          </li>
+          <li>
+              <span style="padding-top: 13px;float: left;">年缴保费<br><b style="font-weight: normal;">(单位：万)</b></span>
+              <input type="text" name="money" style="margin-left: 4px;">
+          </li>
+          <li>
+              <span>姓名</span>
+              <input type="text" name="insuredName">
+          </li>
+          <li>
+            <span>性别</span>
+            <span class="mr"><input type="radio" name="insuredGender" checked required value="男"> 男</span>
+            <span><input type="radio" name="insuredGender" value="女"> 女</span>
+         </li>
+          <li>
+            <span>吸烟</span>
+            <span class="mr"><input type="radio" name="smoke" checked required value="是"> 是</span>
+            <span><input type="radio" name="smoke" value="否"> 否</span>
+         </li>
+          <li>
+              <span>出生日期</span>
+              <input name="birthday" type="date" value="1994-05-20">
+          </li>
+          <h3>您的信息</h3>
+         <li>
+            <span>如何称呼您<i>*</i></span>
+            <input type="text" name="insureName" required>
+         </li>
+         <li>
+            <span>您的邮箱<i>*</i></span>
+            <input type="email" name="insureEmail" required>
+         </li>
+          <li>
+            <span>您的手机<i>*</i></span>
+            <input type="phone" name="insurePhone" required>
+         </li>
+         <li>
+            <span>您的微信</span>
+            <input type="text" name="insureWechat">
+         </li>
+         <li class="tips">
+            <b>!</b>我们会在第二个工作日9:00-18:00与您联系
+         </li>
+         <li>
+            <span class="form1Cancel" id="form1Cancel">取消</span>
+            <button type="submit" class="form1Submit">提交</button>
+         </li>
+      </ul>
+   </form>
+</div>
+
+
+
+</div>
+<div class="bg">
+     	<div class="header clear">
+		<div class="inner">
+			<div class="logo">
+				<a href="../../www_lxjcf_default.html"><img src="../../static/img/frontend/public/logo.png" alt="理享家" title="理享家"  /></a>
+			</div>
+			<p>值得信赖的海外资产配置服务平台</p>
+			<ul>
+				<li>
+					<i></i>010-57262841
+				</li>
+				<li class="consult">立即咨询</li>
+			</ul>
+		</div>
+	</div>
+	<div class="nav clear">
+		<div class="inner">
+			<ul>
+				<li >
+					<a href="../../www_lxjcf_default.html" >首页</a>
+				</li>
+				<li >
+					<a href="../../www.lxjcfbx.com/product.htm">海外保险</a>
+				</li>
+				<li >
+					<a href="../../www.lxjcfbx.com/invest.htm">投资移民</a>
+				</li>
+				<li >
+					<a href="../../fund.htm">海外基金</a>
+				</li>
+				<li >
+					<a href="../../news.htm">新闻资讯</a>
+				</li>
+				<li >
+					<a href="../../www.lxjcfbx.com/about.htm">平台介绍</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+ 
+    
+
+  <div class="con clearfix">
+     <ul class="leftCont">
+
+        <div class="title">保险，守护幸福的底线</div>
+        <div class="time"><span>2017-01-03</span> | <span>理享家</span></div>
+        <div class="cont">
+
+        </div>
+
+
+     </ul>
+     <div class="rightBar">
+        
+<link rel='stylesheet' href='../../static/css/frontend/newsRightBar.css' />
+
+
+<ul class="newsRightBar clearfix">
+   <li class="title">热门内容</li>
+   <li><a href="http://www.1meeting.cn/mobile/customactive/&id=5880" target="_blank"><img src="../../static/img/vedio/1.png" alt="理享家"></a></li>
+   <li><a href="../../c.m.163.com/news/l/119302.html" target="_blank"><img src="../../static/img/vedio/2.png" alt="理享家"></a></li>
+   
+   <li class="clearfix">
+      
+      <a href="5a4ca8a84f6eb80e0a3dbcaa.htm">
+      
+      <div class="hotImg">
+         <img src="../../api.careerdream.org/storage/v1/documents/68LHMYmJLeyk03vz.jpg" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">友邦最新重疾——加裕智倍保全解读</div>
+         <div class="hotTime">2018-01-03 </div>
+      </div>
+      </a>
+   </li>
+
+   
+   <li class="clearfix">
+      
+      <a href="5a378e6f4f6eb864fa5c9c5d.htm">
+      
+      <div class="hotImg">
+         <img src="../../api.careerdream.org/storage/v1/documents/alRompl0fmUxoKBE.jpg" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">活动预告│家庭资产传承与财富保全</div>
+         <div class="hotTime">2017-12-18</div>
+      </div>
+      </a>
+   </li>
+
+   
+   <li class="clearfix">
+      
+      <a href="5a2e4bd34f6eb864fa5c9c26.htm">
+      
+      <div class="hotImg">
+         <img src="../../api.careerdream.org/storage/v1/documents/RfSHRKKTPkKDCirR.png" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">活动预告│储蓄分红产品详细对比及方案推荐</div>
+         <div class="hotTime">2017-12-11</div>
+      </div>
+      </a>
+   </li>
+
+   
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </div>
+  </div>
+    <script>
+    window.onload = function(){
+        var content = "&lt;div id=&#34;page-content&#34; class=&#34;rich_media_area_primary&#34; style=&#34;margin: 0px; padding: 20px 15px 15px; position: relative; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px;&#34;&gt;&lt;div id=&#34;img-content&#34; style=&#34;margin: 0px; padding: 0px;&#34;&gt;&lt;div class=&#34;rich_media_content &#34; id=&#34;js_content&#34; style=&#34;margin: 0px; padding: 0px; overflow: hidden; color: rgb(62, 62, 62); min-height: 350px; position: relative;&#34;&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;br&gt;&lt;/p&gt;&lt;section label=&#34;Copyright © 2016 playhudong All Rights Reserved.&#34; donone=&#34;shifuMouseDownPayStyle(&#39;shifu_t_042&#39;)&#34; style=&#34;margin: 1em auto; padding: 0px; max-width: 100%; width: 718.889px; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.56em 0px 0px; padding: 0px; max-width: 100%; width: 10px; height: 10px; border-radius: 50%; background-color: rgb(192, 147, 104); opacity: 0.5; border-width: 1px; border-style: solid; border-color: white; display: inline-block; vertical-align: top; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.4em 0px 0px; padding: 0px; max-width: 100%; width: 15px; height: 15px; border-radius: 50%; border-width: 2px; border-style: solid; border-color: white; background-color: rgb(192, 147, 104); display: inline-block; vertical-align: top; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;p style=&#34;margin-bottom: 0px; margin-left: 0.5em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; display: inline-block; word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;幸福的底线&lt;/strong&gt;&lt;/p&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.4em 0px 0px 0.5em; padding: 0px; max-width: 100%; width: 15px; height: 15px; border-radius: 50%; background-color: rgb(192, 147, 104); display: inline-block; border-width: 2px; border-style: solid; border-color: white; vertical-align: top; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.56em 0px 0px; padding: 0px; max-width: 100%; width: 10px; height: 10px; border-radius: 50%; background-color: rgb(192, 147, 104); vertical-align: top; opacity: 0.5; display: inline-block; border-width: 1px; border-style: solid; border-color: white; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;作家史铁生这么写自己：“生病的经验是一步步懂得满足。发烧了，才知道不发烧的日子多么清爽。咳嗽了，才体会不咳嗽的嗓子多么安详。刚坐上轮椅时，我老想，不能直立行走岂不把人的特点搞丢了？便觉天昏地暗，等又生出褥疮，一连数日只能歪七扭八地躺着，才看见端坐的日子其实多么晴朗。后来又患尿毒症，经常昏昏然不能思想，就更加怀恋起往日时光。&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(192, 147, 104); word-wrap: break-word !important;&#34;&gt;终于醒悟：其实每时每刻我们都是幸运的，任何灾难前面都可能再加上一个‘更’字。”&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(192, 147, 104); word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;img data-s=&#34;300,640&#34; data-type=&#34;png&#34; data-src=&#34;http://mmbiz.qpic.cn/mmbiz_png/0hNwEryrFib0uh0PLEQ9aKibkyuttdPvDl1nzVQiarlvvwt70MHp6E8feg0EiaosZfl2qqyb6pE2NcHzyN4HOSYHog/0?wx_fmt=png&#34; class=&#34;&#34; data-ratio=&#34;1.15&#34; data-w=&#34;300&#34; src=&#34;http://mmbiz.qpic.cn/mmbiz_png/0hNwEryrFib0uh0PLEQ9aKibkyuttdPvDl1nzVQiarlvvwt70MHp6E8feg0EiaosZfl2qqyb6pE2NcHzyN4HOSYHog/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&#34; data-fail=&#34;0&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; height: auto !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(192, 147, 104); word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;每个人都在为幸福划线，一个总是觉得很痛苦的人，往往就是把幸福的底线划得太高，期望值过高，现实才显得不如意。但像史铁生这样，&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(192, 147, 104); word-wrap: break-word !important;&#34;&gt;一定吃尽了的苦头，所以才把自己的“幸福底线”定得如此之低。&lt;/span&gt;&lt;/strong&gt;只是他们意识到什么是真正幸福的时候，或许生命留给他们的时间已经少得不能再少。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;section label=&#34;Copyright © 2016 playhudong All Rights Reserved.&#34; donone=&#34;shifuMouseDownPayStyle(&#39;shifu_t_042&#39;)&#34; style=&#34;margin: 1em auto; padding: 0px; max-width: 100%; width: 718.889px; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.56em 0px 0px; padding: 0px; max-width: 100%; width: 10px; height: 10px; border-radius: 50%; background-color: rgb(192, 147, 104); opacity: 0.5; border-width: 1px; border-style: solid; border-color: white; display: inline-block; vertical-align: top; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.4em 0px 0px; padding: 0px; max-width: 100%; width: 15px; height: 15px; border-radius: 50%; border-width: 2px; border-style: solid; border-color: white; background-color: rgb(192, 147, 104); display: inline-block; vertical-align: top; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;p style=&#34;margin-bottom: 0px; margin-left: 0.5em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; display: inline-block; word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;生命的大不幸&lt;/strong&gt;&lt;/p&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.4em 0px 0px 0.5em; padding: 0px; max-width: 100%; width: 15px; height: 15px; border-radius: 50%; background-color: rgb(192, 147, 104); display: inline-block; border-width: 2px; border-style: solid; border-color: white; vertical-align: top; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.56em 0px 0px; padding: 0px; max-width: 100%; width: 10px; height: 10px; border-radius: 50%; background-color: rgb(192, 147, 104); vertical-align: top; opacity: 0.5; display: inline-block; border-width: 1px; border-style: solid; border-color: white; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;很多时候，就算一个人把幸福的底线划得很低，灾难和不幸依旧会乐此不疲地折磨他们，直至将他们毁灭。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(192, 147, 104); word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;灾难和不幸从来不是易于之辈，要战胜它们，积极乐观的心态、先进有效的医疗以及源源不断的财力，缺一不可。&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;但许多人，活下去的希望就在面前，近在咫尺，却苦于没有钱财。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;一个在省医院工作的朋友，和我说过他的工作见闻：该省，许多老人得了病的时候，他们的家人会把老人千辛万苦地送到省会的大医院，&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(192, 147, 104); word-wrap: break-word !important;&#34;&gt;不是为了治病，而是为了演戏。&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(192, 147, 104); word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;哪怕还有治疗的希望，只要治疗费用大到“他们觉得不划算”的地步，就会放弃治疗，&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;回到家乡，欺骗乡里：“这个病，医生说治不好”。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;img data-s=&#34;300,640&#34; data-type=&#34;png&#34; data-src=&#34;http://mmbiz.qpic.cn/mmbiz_png/0hNwEryrFib0uh0PLEQ9aKibkyuttdPvDlFiaicyvyHv5VTvFibTntFA3l40N83w5s0r0yl7faymyB3VJqqO9VhCE0w/0?wx_fmt=png&#34; class=&#34;&#34; data-ratio=&#34;1.2385496183206106&#34; data-w=&#34;524&#34; src=&#34;http://mmbiz.qpic.cn/mmbiz_png/0hNwEryrFib0uh0PLEQ9aKibkyuttdPvDlFiaicyvyHv5VTvFibTntFA3l40N83w5s0r0yl7faymyB3VJqqO9VhCE0w/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&#34; data-fail=&#34;0&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; height: auto !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;当生命的去留用“值不值”来衡量的时候，这是对生命的大不敬，也是生命的大不幸。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;img data-s=&#34;300,640&#34; data-type=&#34;png&#34; data-src=&#34;http://mmbiz.qpic.cn/mmbiz_png/0hNwEryrFib0uh0PLEQ9aKibkyuttdPvDl1bWqJbroAOaUhKliacDlzoicibnXwulP7aILrNnBjlRlLvZO9baz1274g/0?wx_fmt=png&#34; class=&#34;&#34; data-ratio=&#34;0.6671875&#34; data-w=&#34;640&#34; src=&#34;http://mmbiz.qpic.cn/mmbiz_png/0hNwEryrFib0uh0PLEQ9aKibkyuttdPvDl1bWqJbroAOaUhKliacDlzoicibnXwulP7aILrNnBjlRlLvZO9baz1274g/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&#34; data-fail=&#34;0&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; height: auto !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;section label=&#34;Copyright © 2016 playhudong All Rights Reserved.&#34; donone=&#34;shifuMouseDownPayStyle(&#39;shifu_t_042&#39;)&#34; style=&#34;margin: 1em auto; padding: 0px; max-width: 100%; width: 718.889px; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.56em 0px 0px; padding: 0px; max-width: 100%; width: 10px; height: 10px; border-radius: 50%; background-color: rgb(192, 147, 104); opacity: 0.5; border-width: 1px; border-style: solid; border-color: white; display: inline-block; vertical-align: top; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.4em 0px 0px; padding: 0px; max-width: 100%; width: 15px; height: 15px; border-radius: 50%; border-width: 2px; border-style: solid; border-color: white; background-color: rgb(192, 147, 104); display: inline-block; vertical-align: top; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;p style=&#34;margin-bottom: 0px; margin-left: 0.5em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; display: inline-block; word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;保险，守住幸福的底线&lt;/strong&gt;&lt;/p&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.4em 0px 0px 0.5em; padding: 0px; max-width: 100%; width: 15px; height: 15px; border-radius: 50%; background-color: rgb(192, 147, 104); display: inline-block; border-width: 2px; border-style: solid; border-color: white; vertical-align: top; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.56em 0px 0px; padding: 0px; max-width: 100%; width: 10px; height: 10px; border-radius: 50%; background-color: rgb(192, 147, 104); vertical-align: top; opacity: 0.5; display: inline-block; border-width: 1px; border-style: solid; border-color: white; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;买不买保险，每个人其实也给自己划了线。大多数身体健康的人都给自己划了一条很高的线，以为自己用不到保险，&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(192, 147, 104); word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;只是当疾病降临的时候，他们用盲目的自信与期望划出的线，脆弱地经不起推敲。&lt;/strong&gt;&lt;/span&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;那些与疾病抗争的人，多数败在财力上，而非身体上。但事实上，几乎覆盖全民的医保抵扣加上保险赔付，疾病的耗费其实并不多，保险让生命可以用低廉的价格享受到尊严。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;我觉得，购买重疾险，不是说患病获得赔付了就幸福，而是患病了，获得重疾险赔付比没有重疾险更幸福，因为可以获得更多的生存的希望。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;section label=&#34;Copyright © 2016 playhudong All Rights Reserved.&#34; donone=&#34;shifuMouseDownPayStyle(&#39;shifu_t_042&#39;)&#34; style=&#34;margin: 1em auto; padding: 0px; max-width: 100%; width: 718.889px; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.56em 0px 0px; padding: 0px; max-width: 100%; width: 10px; height: 10px; border-radius: 50%; background-color: rgb(192, 147, 104); opacity: 0.5; border-width: 1px; border-style: solid; border-color: white; display: inline-block; vertical-align: top; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.4em 0px 0px; padding: 0px; max-width: 100%; width: 15px; height: 15px; border-radius: 50%; border-width: 2px; border-style: solid; border-color: white; background-color: rgb(192, 147, 104); display: inline-block; vertical-align: top; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;p style=&#34;margin-bottom: 0px; margin-left: 0.5em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; display: inline-block; word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;保险代理人的心声&lt;/strong&gt;&lt;/p&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.4em 0px 0px 0.5em; padding: 0px; max-width: 100%; width: 15px; height: 15px; border-radius: 50%; background-color: rgb(192, 147, 104); display: inline-block; border-width: 2px; border-style: solid; border-color: white; vertical-align: top; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0.56em 0px 0px; padding: 0px; max-width: 100%; width: 10px; height: 10px; border-radius: 50%; background-color: rgb(192, 147, 104); vertical-align: top; opacity: 0.5; display: inline-block; border-width: 1px; border-style: solid; border-color: white; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;我热爱保险工作，并不仅仅因为保险给了我一份工作，而是，在中国人们的保险意识还很淡薄，作为一个保险代理人，我希望能够用保险守住每个人幸福的底线。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;我只想通过我每天的努力，让更多的人未雨绸缪，将意外与疾病造成的经济伤害转嫁给保险公司，我们和风险赛跑，希望在风险来临之前见到你；把保障带给您，不想让你输给风险。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;因为热爱保险，所以才一次次的敲开您拒绝的门；&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;因为爱的执着，所以再多的误解也不能减缓我们给你送保障的信念；&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;我们不希望您用到保险，但是更不希望您遇到风险了没保险可用；&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;风雨里，他撑着伞，只是希望你也有伞。我们只想用智慧的安排让生活更加美好！&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;img data-s=&#34;300,640&#34; data-type=&#34;png&#34; data-src=&#34;http://mmbiz.qpic.cn/mmbiz_png/0hNwEryrFib0uh0PLEQ9aKibkyuttdPvDlAX8qA91Ve05H7UbPssCNwTfh7eUkGQ4pSDFxGDibfKPHxS7txLHXwEQ/0?wx_fmt=png&#34; class=&#34;&#34; data-ratio=&#34;0.81875&#34; data-w=&#34;640&#34; src=&#34;http://mmbiz.qpic.cn/mmbiz_png/0hNwEryrFib0uh0PLEQ9aKibkyuttdPvDlAX8qA91Ve05H7UbPssCNwTfh7eUkGQ4pSDFxGDibfKPHxS7txLHXwEQ/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&#34; data-fail=&#34;0&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; height: auto !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;因为我们是保险代理人，因能用保险帮助你解决人生风险而自豪，你要知道，你可以拒绝我们，但你拒绝不了风险！&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0em 1em; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;没有人因为买了保险而倾家荡产，但却有人因为没买保险而人财两空！保险不能改变你的生活，但却能防止你的生活被改变！&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;"
+        var temp = document.createElement("div");
+        temp.innerHTML = content;
+        var output = temp.innerText || temp.textContent;
+        temp = null;
+        var cont = document.querySelector('.cont')
+        cont.innerHTML = output;
+
+        $(document).ready(function() {
+		    $(".nav").find("li").eq(4).addClass("nav-select");
+	    });
+    }
+    </script>
+
+       <!-- 悬浮手机 -->
+  <div class="fix-phone consult"></div>
+
+  <div class="footer">
+    <div class="foo-content clear">
+      <div class="inner">
+        <ul>
+          <li class="title">理享家</li>
+          <li><a href="../../www.lxjcfbx.com/about.htm">关于理享家</a></li>
+          <li><a href="../../about_2.htm">常见问题</a></li>
+          <li><a href="../../about_3.htm">法律声明</a></li>
+        </ul>
+        <ul>
+          <li class="title">联系我们</li>
+          <li>电话：010-57262841</li>
+          <li>服务时间：9:00-18:00</li>
+        </ul>
+        <div class="right">
+          <div class="code"><img src="../../static/img/frontend/public/code.jpg" alt="二维码-理享家" /></div>
+          <p>扫码二维码</p>
+          <p>咨询海外资产咨询顾问</p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">版权所有 Copyright©2017 理享家 Asset Pro Co.Limited. All rights reserved</div>
+  </div>
+  <script>
+      (function(){
+          var bp = document.createElement('script');
+          var curProtocol = window.location.protocol.split(':')[0];
+          if (curProtocol === 'https'){
+              bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+          }
+          else{
+              bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+          }
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(bp, s);
+      })();
+  </script> 
+</div>
+<script src="../../static/js/frontend/form.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>活动预告│家庭资产传承与财富保全-理享家</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="理享家">
+    <script src="../../static/js/public/jquery-3.1.1.min.js"></script>
+     
+<meta name="keywords" content="理财咨询,基金理财资讯,最新金融资讯,金融资讯平台,现货时报财富资讯,苏宁财富资讯,东方财富资讯,今日财经资讯" />
+<meta name="description" content=财力再雄厚的大家族，在财富积累经历两三代以后，想要财富不衰减，已经成为极为挑战的事。家族财富传承，是摆在中国富人面前的一道难题。 />
+<link rel='stylesheet' href='../../static/css/frontend/news1.css' />
+
+    <link rel="shortcut icon" href="../../static/img/frontend/public/icon.png"/>
+    <link rel="stylesheet" href="../../static/css/frontend/base.css"/>
+    <link rel="stylesheet" href="../../static/css/frontend/header.css"/>
+    <link rel="stylesheet" href="../../static/css/frontend/footer.css"/>
+    <link rel='stylesheet' href='../../static/css/frontend/form.css'/>
+    <script name="baidu-koubei-verification" src="../../ikoubei.baidu.com/embed/8cd3a98723f1342aaa88d882864aa33e.JS"></script>
+    <style>
+        .content {
+            position: relative;
+        }
+
+        .link {
+            width: 1200px;
+            margin: 0 auto;
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: normal;
+            position: absolute;
+            top:20px;
+            left:50px;
+            visibility:hidden;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div id="baseForm">
+    <div class="form form1">
+    <div class="mask"></div>
+   <form class="formBox" id="form" method="post">
+      <div class="formTitle">
+         <img src="../../static/img/frontend/form/formTop.png" />
+      </div>
+      <ul class="formCont">
+         <li>
+            <span>如何称呼您<i>*</i></span>
+            <input type="text" name="name" id="input_name">
+         </li>
+         <li>
+            <span>性别<i>*</i></span>
+            <span class="mr"><input type="radio" name="sex" checked value="男" /> 男</span>
+            <span><input type="radio" name="sex" value="女"> 女</span>
+         </li>
+         <li>
+            <span>联系电话<i>*</i></span>
+            <input type="phone" name="phone" id="input_phone">
+         </li>
+         <!--<li>-->
+            <!--<span>电子邮箱<i>*</i></span>-->
+            <!--<input type="email" name="email" required>-->
+         <!--</li>-->
+         <li>
+            <span>您的微信</span>
+            <input type="text" name="wechat" id="input_wechat">
+         </li>
+         <li class="tips">
+            <b>!</b>我们会在第二个工作日9:00-18:00与您联系
+         </li>
+         <li class="btn">
+            <span class="form1Cancel" id="formCancel">取消</span>
+            <button type="submit" class="form1Submit">提交</button>
+         </li>
+      </ul>
+   </form>
+</div>
+
+
+
+</div>
+<div id="baseForm1">
+    <div class="form form2">
+    <div class="mask"></div>
+   <form class="formBox" id="form1" method="post">
+      <div class="formTitle">
+         <img src="../../static/img/frontend/form/formTop.png" alt="">
+      </div>
+      <ul class="formCont">
+         <h3>被保人信息</h3>
+          <li>
+              <span>保险公司</span>
+              <input type="text" value="" name="company" disabled>
+          </li>
+          <li>
+              <span>保险产品</span>
+              <input type="text" value="" name="product" disabled>
+          </li>
+          <li style="margin: 19px 73px;">
+              <span>认购货币</span>
+              
+          </li>
+          <li>
+              <span>缴费年限</span>
+              <select name="moneyYear">
+                  
+              </select>
+          </li>
+          <li>
+              <span style="padding-top: 13px;float: left;">年缴保费<br><b style="font-weight: normal;">(单位：万)</b></span>
+              <input type="text" name="money" style="margin-left: 4px;">
+          </li>
+          <li>
+              <span>姓名</span>
+              <input type="text" name="insuredName">
+          </li>
+          <li>
+            <span>性别</span>
+            <span class="mr"><input type="radio" name="insuredGender" checked required value="男"> 男</span>
+            <span><input type="radio" name="insuredGender" value="女"> 女</span>
+         </li>
+          <li>
+            <span>吸烟</span>
+            <span class="mr"><input type="radio" name="smoke" checked required value="是"> 是</span>
+            <span><input type="radio" name="smoke" value="否"> 否</span>
+         </li>
+          <li>
+              <span>出生日期</span>
+              <input name="birthday" type="date" value="1994-05-20">
+          </li>
+          <h3>您的信息</h3>
+         <li>
+            <span>如何称呼您<i>*</i></span>
+            <input type="text" name="insureName" required>
+         </li>
+         <li>
+            <span>您的邮箱<i>*</i></span>
+            <input type="email" name="insureEmail" required>
+         </li>
+          <li>
+            <span>您的手机<i>*</i></span>
+            <input type="phone" name="insurePhone" required>
+         </li>
+         <li>
+            <span>您的微信</span>
+            <input type="text" name="insureWechat">
+         </li>
+         <li class="tips">
+            <b>!</b>我们会在第二个工作日9:00-18:00与您联系
+         </li>
+         <li>
+            <span class="form1Cancel" id="form1Cancel">取消</span>
+            <button type="submit" class="form1Submit">提交</button>
+         </li>
+      </ul>
+   </form>
+</div>
+
+
+
+</div>
+<div class="bg">
+     	<div class="header clear">
+		<div class="inner">
+			<div class="logo">
+				<a href="../../www_lxjcf_default.html"><img src="../../static/img/frontend/public/logo.png" alt="理享家" title="理享家"  /></a>
+			</div>
+			<p>值得信赖的海外资产配置服务平台</p>
+			<ul>
+				<li>
+					<i></i>010-57262841
+				</li>
+				<li class="consult">立即咨询</li>
+			</ul>
+		</div>
+	</div>
+	<div class="nav clear">
+		<div class="inner">
+			<ul>
+				<li >
+					<a href="../../www_lxjcf_default.html" >首页</a>
+				</li>
+				<li >
+					<a href="../../www.lxjcfbx.com/product.htm">海外保险</a>
+				</li>
+				<li >
+					<a href="../../www.lxjcfbx.com/invest.htm">投资移民</a>
+				</li>
+				<li >
+					<a href="../../fund.htm">海外基金</a>
+				</li>
+				<li >
+					<a href="../../news.htm">新闻资讯</a>
+				</li>
+				<li >
+					<a href="../../www.lxjcfbx.com/about.htm">平台介绍</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+ 
+    
+
+  <div class="con clearfix">
+     <ul class="leftCont">
+
+        <div class="title">活动预告│家庭资产传承与财富保全</div>
+        <div class="time"><span>2017-12-18</span> | <span>理享家</span></div>
+        <div class="cont">
+
+        </div>
+
+
+     </ul>
+     <div class="rightBar">
+        
+<link rel='stylesheet' href='../../static/css/frontend/newsRightBar.css' />
+
+
+<ul class="newsRightBar clearfix">
+   <li class="title">热门内容</li>
+   <li><a href="http://www.1meeting.cn/mobile/customactive/&id=5880" target="_blank"><img src="../../static/img/vedio/1.png" alt="理享家"></a></li>
+   <li><a href="../../c.m.163.com/news/l/119302.html" target="_blank"><img src="../../static/img/vedio/2.png" alt="理享家"></a></li>
+   
+   <li class="clearfix">
+      
+      <a href="5a4ca8a84f6eb80e0a3dbcaa.htm">
+      
+      <div class="hotImg">
+         <img src="../../api.careerdream.org/storage/v1/documents/68LHMYmJLeyk03vz.jpg" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">友邦最新重疾——加裕智倍保全解读</div>
+         <div class="hotTime">2018-01-03 </div>
+      </div>
+      </a>
+   </li>
+
+   
+   <li class="clearfix">
+      
+      <a href="5a378e6f4f6eb864fa5c9c5d.htm">
+      
+      <div class="hotImg">
+         <img src="../../api.careerdream.org/storage/v1/documents/alRompl0fmUxoKBE.jpg" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">活动预告│家庭资产传承与财富保全</div>
+         <div class="hotTime">2017-12-18</div>
+      </div>
+      </a>
+   </li>
+
+   
+   <li class="clearfix">
+      
+      <a href="5a2e4bd34f6eb864fa5c9c26.htm">
+      
+      <div class="hotImg">
+         <img src="../../api.careerdream.org/storage/v1/documents/RfSHRKKTPkKDCirR.png" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">活动预告│储蓄分红产品详细对比及方案推荐</div>
+         <div class="hotTime">2017-12-11</div>
+      </div>
+      </a>
+   </li>
+
+   
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </div>
+  </div>
+    <script>
+    window.onload = function(){
+        var content = "&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;最近很火的一部电影《寻梦环游记》，看哭了很多人，也让很多人对于亲情，对于传承有了更深的理解或共鸣。家族传承，不止是血脉的延续，它是家族续航、社会发展的重要环节。而对于高净值人群来说，其更是一项复杂而庞大的工程。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;中国有句俗话：“富不过三代。”&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;意思是说，财力再雄厚的大家族，在财富积累经历两三代以后，想要财富不衰减，已经成为极为挑战的事。家族财富传承，是摆在中国富人面前的一道难题。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;2017 年《胡润百富榜》数据显示，中国上榜企业家平均年龄54 岁，他们子女的年龄基本在24、25 岁左右，刚刚进入社会，这充分说明中国企业家们已慢慢步入财富交接期，家族传承意识提升，传承关注度和重要性日益上涨。如今，当中国创富一代渐渐告别自身财富大幅积累阶段之时，无论是企业发展战略、还是财富规划，都开始着重于将子女乃至整个家族考虑在内。&lt;/span&gt;&lt;br style=&#34;margin: 0px; padding: 0px;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(127, 127, 127); font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;近日，中信银行私人银行与胡润研究院联合发布《全球视野下的责任与传承—2017中国高净值人群财富管理需求白皮书》，该白皮书主要聚焦于时下两大热门话题——家族传承和企业家责任。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;总体而言，中国的家族传承尚处于起步和探索阶段。但必须意识到家族传承已经成为中国高净值人群未来很长一段时间着重关注的命题。基于他们特有的财富规模、投资需求和生活/事业背景，以及社会地位、价值观等，家族传承被赋予了更丰富的内涵，而对于这部分人群的投资规划也需相应调整和匹配。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;对个人而言，人生需要规划，而对一个家庭而言，钱财需要打理，我们要有正确的理财和投资观念。理财就是合理安排和分配财富，以规避风险和解决问题为最终目标，而投资是以追求利润为最终目标，但利益和风险却是一对孪生姐妹，高利益也伴随着高风险。那么，家庭如何才能有效合理的实现资产的传承与保全呢？&lt;/span&gt;&lt;br style=&#34;margin: 0px; padding: 0px;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;本周，理享家将在杭州举办以“家庭资产传承与财富保全”为主题的线下分享活动，这期活动，我们将就什么是资产、什么是财富保全、如何有效合理的实现家庭财富保全与传承、具体的传承方式等内容进行详解，敬请期待！&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; text-align: center; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium;&#34;&gt;&lt;img data-s=&#34;300,640&#34; data-type=&#34;png&#34; src=&#34;https://mmbiz.qlogo.cn/mmbiz_png/0hNwEryrFib2nur3icjZQDcz9IVVeGc39bmneibLGx7ObZ0mvVicCOLgQ0RGYsWB3e4hibgkgNYdHgIpdCMRibHuL8GA/0?wx_fmt=png&#34; class=&#34;&#34; data-ratio=&#34;1.7786666666666666&#34; data-w=&#34;750&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; width: 386.703px;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;与此同时，本周，我们也将在成都、武汉等地开展以“香港储蓄保单销售-海外资产配置不可或缺的一环”及“&lt;span style=&#34;margin: 0px; padding: 0px;&#34;&gt;疾病的预防及检测&lt;/span&gt;”等为主题的分享活动，期待您的参与。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; text-align: center;&#34;&gt;&lt;img data-s=&#34;300,640&#34; data-type=&#34;png&#34; src=&#34;https://mmbiz.qlogo.cn/mmbiz_png/0hNwEryrFib2nur3icjZQDcz9IVVeGc39bqfZmsSJDsWL5tNDASPorx30MGrvKaNEeYqNjPC7UZFYn6Vg34ibaPew/0?wx_fmt=png&#34; class=&#34;&#34; data-ratio=&#34;1.7786666666666666&#34; data-w=&#34;750&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; width: 386.703px;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; text-align: center;&#34;&gt;&lt;img data-s=&#34;300,640&#34; data-type=&#34;png&#34; src=&#34;https://mmbiz.qlogo.cn/mmbiz_png/0hNwEryrFib2nur3icjZQDcz9IVVeGc39bmmBia6sWWpMVrg6v8icOdhACxyYLeTibl6A5jqEmfTNiaHCo0yapy2pmNA/0?wx_fmt=png&#34; class=&#34;&#34; data-ratio=&#34;1.7786666666666666&#34; data-w=&#34;750&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; width: 386.703px;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; text-align: center;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;想要了解更多资讯，可添加理享家官方公众平台（lxjwealth）。&lt;/p&gt;&lt;p style=&#34;margin-right: 16px; margin-bottom: 0px; margin-left: 16px; text-align: center; padding: 0px; clear: both; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: medium; line-height: 1.75em;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; font-size: 15px;&#34;&gt;&lt;img src=&#34;https://mp.weixin.qq.com/mp/qrcode?scene=10000004&amp;amp;size=102&amp;amp;__biz=MzI0NjUxNDk5NA==&amp;amp;mid=100006030&amp;amp;idx=1&amp;amp;sn=938d24805a28b06dcb8a947bca2616ba&amp;amp;send_time=1513579483&#34;&gt;&lt;/span&gt;&lt;/p&gt;"
+        var temp = document.createElement("div");
+        temp.innerHTML = content;
+        var output = temp.innerText || temp.textContent;
+        temp = null;
+        var cont = document.querySelector('.cont')
+        cont.innerHTML = output;
+
+        $(document).ready(function() {
+		    $(".nav").find("li").eq(4).addClass("nav-select");
+	    });
+    }
+    </script>
+
+       <!-- 悬浮手机 -->
+  <div class="fix-phone consult"></div>
+
+  <div class="footer">
+    <div class="foo-content clear">
+      <div class="inner">
+        <ul>
+          <li class="title">理享家</li>
+          <li><a href="../../www.lxjcfbx.com/about.htm">关于理享家</a></li>
+          <li><a href="../../about_2.htm">常见问题</a></li>
+          <li><a href="../../about_3.htm">法律声明</a></li>
+        </ul>
+        <ul>
+          <li class="title">联系我们</li>
+          <li>电话：010-57262841</li>
+          <li>服务时间：9:00-18:00</li>
+        </ul>
+        <div class="right">
+          <div class="code"><img src="../../static/img/frontend/public/code.jpg" alt="二维码-理享家" /></div>
+          <p>扫码二维码</p>
+          <p>咨询海外资产咨询顾问</p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">版权所有 Copyright©2017 理享家 Asset Pro Co.Limited. All rights reserved</div>
+  </div>
+  <script>
+      (function(){
+          var bp = document.createElement('script');
+          var curProtocol = window.location.protocol.split(':')[0];
+          if (curProtocol === 'https'){
+              bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+          }
+          else{
+              bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+          }
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(bp, s);
+      })();
+  </script> 
+</div>
+<script src="../../static/js/frontend/form.js"></script>
+ 
+</body>
+</html>

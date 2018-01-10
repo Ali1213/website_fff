@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>工作与生活平衡，这其实是个伪命题-理享家</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="理享家">
+    <script src="../../static/js/public/jquery-3.1.1.min.js"></script>
+     
+<meta name="keywords" content="理财咨询,基金理财资讯,最新金融资讯,金融资讯平台,现货时报财富资讯,苏宁财富资讯,东方财富资讯,今日财经资讯" />
+<meta name="description" content=操劳过度、心烦意乱、压力太大、精力分散……如今我们中有不少人用这些词来形容自己。我听到世界各地的男人、女人、老人、小孩、都做过类似的抱怨。在一个信息爆炸和经济压力无处不在的时代，每个人都想努力拥有一份有意义的工作、一个幸福家庭以及令人满意的内心生活。 />
+<link rel='stylesheet' href='../../static/css/frontend/news1.css' />
+
+    <link rel="shortcut icon" href="../../static/img/frontend/public/icon.png"/>
+    <link rel="stylesheet" href="../../static/css/frontend/base.css"/>
+    <link rel="stylesheet" href="../../static/css/frontend/header.css"/>
+    <link rel="stylesheet" href="../../static/css/frontend/footer.css"/>
+    <link rel='stylesheet' href='../../static/css/frontend/form.css'/>
+    <script name="baidu-koubei-verification" src="../../ikoubei.baidu.com/embed/8cd3a98723f1342aaa88d882864aa33e.JS"></script>
+    <style>
+        .content {
+            position: relative;
+        }
+
+        .link {
+            width: 1200px;
+            margin: 0 auto;
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: normal;
+            position: absolute;
+            top:20px;
+            left:50px;
+            visibility:hidden;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div id="baseForm">
+    <div class="form form1">
+    <div class="mask"></div>
+   <form class="formBox" id="form" method="post">
+      <div class="formTitle">
+         <img src="../../static/img/frontend/form/formTop.png" />
+      </div>
+      <ul class="formCont">
+         <li>
+            <span>如何称呼您<i>*</i></span>
+            <input type="text" name="name" id="input_name">
+         </li>
+         <li>
+            <span>性别<i>*</i></span>
+            <span class="mr"><input type="radio" name="sex" checked value="男" /> 男</span>
+            <span><input type="radio" name="sex" value="女"> 女</span>
+         </li>
+         <li>
+            <span>联系电话<i>*</i></span>
+            <input type="phone" name="phone" id="input_phone">
+         </li>
+         <!--<li>-->
+            <!--<span>电子邮箱<i>*</i></span>-->
+            <!--<input type="email" name="email" required>-->
+         <!--</li>-->
+         <li>
+            <span>您的微信</span>
+            <input type="text" name="wechat" id="input_wechat">
+         </li>
+         <li class="tips">
+            <b>!</b>我们会在第二个工作日9:00-18:00与您联系
+         </li>
+         <li class="btn">
+            <span class="form1Cancel" id="formCancel">取消</span>
+            <button type="submit" class="form1Submit">提交</button>
+         </li>
+      </ul>
+   </form>
+</div>
+
+
+
+</div>
+<div id="baseForm1">
+    <div class="form form2">
+    <div class="mask"></div>
+   <form class="formBox" id="form1" method="post">
+      <div class="formTitle">
+         <img src="../../static/img/frontend/form/formTop.png" alt="">
+      </div>
+      <ul class="formCont">
+         <h3>被保人信息</h3>
+          <li>
+              <span>保险公司</span>
+              <input type="text" value="" name="company" disabled>
+          </li>
+          <li>
+              <span>保险产品</span>
+              <input type="text" value="" name="product" disabled>
+          </li>
+          <li style="margin: 19px 73px;">
+              <span>认购货币</span>
+              
+          </li>
+          <li>
+              <span>缴费年限</span>
+              <select name="moneyYear">
+                  
+              </select>
+          </li>
+          <li>
+              <span style="padding-top: 13px;float: left;">年缴保费<br><b style="font-weight: normal;">(单位：万)</b></span>
+              <input type="text" name="money" style="margin-left: 4px;">
+          </li>
+          <li>
+              <span>姓名</span>
+              <input type="text" name="insuredName">
+          </li>
+          <li>
+            <span>性别</span>
+            <span class="mr"><input type="radio" name="insuredGender" checked required value="男"> 男</span>
+            <span><input type="radio" name="insuredGender" value="女"> 女</span>
+         </li>
+          <li>
+            <span>吸烟</span>
+            <span class="mr"><input type="radio" name="smoke" checked required value="是"> 是</span>
+            <span><input type="radio" name="smoke" value="否"> 否</span>
+         </li>
+          <li>
+              <span>出生日期</span>
+              <input name="birthday" type="date" value="1994-05-20">
+          </li>
+          <h3>您的信息</h3>
+         <li>
+            <span>如何称呼您<i>*</i></span>
+            <input type="text" name="insureName" required>
+         </li>
+         <li>
+            <span>您的邮箱<i>*</i></span>
+            <input type="email" name="insureEmail" required>
+         </li>
+          <li>
+            <span>您的手机<i>*</i></span>
+            <input type="phone" name="insurePhone" required>
+         </li>
+         <li>
+            <span>您的微信</span>
+            <input type="text" name="insureWechat">
+         </li>
+         <li class="tips">
+            <b>!</b>我们会在第二个工作日9:00-18:00与您联系
+         </li>
+         <li>
+            <span class="form1Cancel" id="form1Cancel">取消</span>
+            <button type="submit" class="form1Submit">提交</button>
+         </li>
+      </ul>
+   </form>
+</div>
+
+
+
+</div>
+<div class="bg">
+     	<div class="header clear">
+		<div class="inner">
+			<div class="logo">
+				<a href="../../www_lxjcf_default.html"><img src="../../static/img/frontend/public/logo.png" alt="理享家" title="理享家"  /></a>
+			</div>
+			<p>值得信赖的海外资产配置服务平台</p>
+			<ul>
+				<li>
+					<i></i>010-57262841
+				</li>
+				<li class="consult">立即咨询</li>
+			</ul>
+		</div>
+	</div>
+	<div class="nav clear">
+		<div class="inner">
+			<ul>
+				<li >
+					<a href="../../www_lxjcf_default.html" >首页</a>
+				</li>
+				<li >
+					<a href="../../www.lxjcfbx.com/product.htm">海外保险</a>
+				</li>
+				<li >
+					<a href="../../www.lxjcfbx.com/invest.htm">投资移民</a>
+				</li>
+				<li >
+					<a href="../../fund.htm">海外基金</a>
+				</li>
+				<li >
+					<a href="../../news.htm">新闻资讯</a>
+				</li>
+				<li >
+					<a href="../../www.lxjcfbx.com/about.htm">平台介绍</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+ 
+    
+
+  <div class="con clearfix">
+     <ul class="leftCont">
+
+        <div class="title">工作与生活平衡，这其实是个伪命题</div>
+        <div class="time"><span> 2017-12-27 </span> | <span>理享家</span></div>
+        <div class="cont">
+
+        </div>
+
+
+     </ul>
+     <div class="rightBar">
+        
+<link rel='stylesheet' href='../../static/css/frontend/newsRightBar.css' />
+
+
+<ul class="newsRightBar clearfix">
+   <li class="title">热门内容</li>
+   <li><a href="http://www.1meeting.cn/mobile/customactive/&id=5880" target="_blank"><img src="../../static/img/vedio/1.png" alt="理享家"></a></li>
+   <li><a href="../../c.m.163.com/news/l/119302.html" target="_blank"><img src="../../static/img/vedio/2.png" alt="理享家"></a></li>
+   
+   <li class="clearfix">
+      
+      <a href="5a4ca8a84f6eb80e0a3dbcaa.htm">
+      
+      <div class="hotImg">
+         <img src="../../api.careerdream.org/storage/v1/documents/68LHMYmJLeyk03vz.jpg" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">友邦最新重疾——加裕智倍保全解读</div>
+         <div class="hotTime">2018-01-03 </div>
+      </div>
+      </a>
+   </li>
+
+   
+   <li class="clearfix">
+      
+      <a href="5a378e6f4f6eb864fa5c9c5d.htm">
+      
+      <div class="hotImg">
+         <img src="../../api.careerdream.org/storage/v1/documents/alRompl0fmUxoKBE.jpg" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">活动预告│家庭资产传承与财富保全</div>
+         <div class="hotTime">2017-12-18</div>
+      </div>
+      </a>
+   </li>
+
+   
+   <li class="clearfix">
+      
+      <a href="5a2e4bd34f6eb864fa5c9c26.htm">
+      
+      <div class="hotImg">
+         <img src="../../api.careerdream.org/storage/v1/documents/RfSHRKKTPkKDCirR.png" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">活动预告│储蓄分红产品详细对比及方案推荐</div>
+         <div class="hotTime">2017-12-11</div>
+      </div>
+      </a>
+   </li>
+
+   
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </div>
+  </div>
+    <script>
+    window.onload = function(){
+        var content = "&lt;div class=&#34;rich_media_content &#34; id=&#34;js_content&#34; style=&#34;margin: 0px; padding: 0px; overflow: hidden; color: rgb(62, 62, 62); min-height: 350px; position: relative; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px;&#34;&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;font-size: 15px;&#34;&gt;操劳过度、心烦意乱、压力太大、精力分散……如今我们中有不少人用这些词来形容自己。我听到世界各地的男人、女人、老人、小孩、都做过类似的抱怨。&lt;/span&gt;&lt;span style=&#34;font-size: 15px; margin: 0px; padding: 0px; max-width: 100%; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;在一个信息爆炸和经济压力无处不在的时代，每个人都想努力拥有一份有意义的工作、一个幸福家庭以及令人满意的内心生活。&lt;/span&gt;&lt;span style=&#34;font-size: 15px;&#34;&gt;许多人已经放弃了拥有这一切的奢望：我在宾夕法尼亚大学沃顿商学院1992届和2012届一些班级做过调查，结果显示，在读大学生中，相当数量的“千禧世代”（出生于1980-2000年的一代人）决定不要小孩，因为他们认为自己在繁忙之余没有精力养育孩子。&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;努力将“工作、生活平衡”得更好不是解决办法。正如我长期以来主张的那样，平衡是无稽之谈，是一个误导人的说法，因为它假设的前提是我们始终必须在4个维度实现平衡发展：工作或学校、家或家庭（看你是如何定义的）、社区（朋友、邻居、宗教或社会团体），以及自我（心灵、身体、精神）。更现实、更令人满意的目标是通过提高这4个维度的表现，实现它们的共赢，从而更好地融合工作和生活。&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;实现这种融合的第一步是采纳3个主要原则，即保持真实性、全面性和创新性。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;这是2008年我在《哈佛商业评论》上发表的《做更出色的领导者，拥有更丰富的人生》（&lt;em style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;Be a Better Leader, Have a Richer Life&lt;/em&gt;）一文中提到的。要将这些原则落到实处，需要一定技巧。&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;img data-s=&#34;300,640&#34; data-type=&#34;jpeg&#34; data-src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/lxslyr6ibEMsu4KN9bNIYV2W4OEqZObuGybMFBia8t4p8c99sQQXKTx5R55OJjdfazUPU0Rg5Eyhk43H7UzSXVlQ/0?wx_fmt=jpeg&#34; data-copyright=&#34;0&#34; class=&#34;&#34; data-ratio=&#34;0.5628571428571428&#34; data-w=&#34;700&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/lxslyr6ibEMsu4KN9bNIYV2W4OEqZObuGybMFBia8t4p8c99sQQXKTx5R55OJjdfazUPU0Rg5Eyhk43H7UzSXVlQ/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&#34; data-fail=&#34;0&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; height: auto !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/inherit&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;section style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; powered-by=&#34;xiumi.us&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 10px 0px; padding: 0px; max-width: 100%; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 3px; max-width: 100%; display: inline-block; border-top: 6px solid rgb(170, 38, 16); word-wrap: break-word !important;&#34;&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 18px; word-wrap: break-word !important;&#34;&gt;保持真实性的技巧&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;10多年来，我一直在教一门名为“全面领导力”的课程，向企业高管、MBA学生和其他人士传授上述3项原则。课程最初聚焦于如何保持真实性上，也就是说，&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;不管你身在何处，正在做什么，都可以通过理清什么是重要的，来确保观念与行为的一致性。&lt;/span&gt;你要做的是：&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;section style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; powered-by=&#34;xiumi.us&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 30px 0px 10px; padding: 0px; max-width: 100%; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 10px; max-width: 100%; display: inline-block; width: 603px; border-width: 1px; border-style: solid; border-color: rgb(192, 200, 209); background-color: rgb(254, 255, 255); box-shadow: rgb(220, 221, 221) 3.53px 3.53px 0px; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; powered-by=&#34;xiumi.us&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; text-align: left; word-wrap: break-word !important;&#34;&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;1.了解什么是重要的。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;2.贯彻始终如一的价值观。&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;3.保持价值观和行为的一致性。&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;4.以讲故事的形式传达价值观。&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;5.思考你将为后人留下什么。&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;6.学会承担责任。&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;做头两件事的能力尤为重要。&lt;/span&gt;&lt;/strong&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;我先讲一下如何了解哪些事情是重要的。有一项练习能够提高这种技巧，它名叫&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;“4个圈”&lt;/strong&gt;，能检查你在人生中各种角色和责任的重要性和一致性。&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;你先画出4个圈，分别代表工作、家庭、社区和自我。每个圈的大小不同，表明你对它们的重视程度略有差异。接下来，你要移动这些圈，看它们是否重叠，以及重叠的程度。&lt;/span&gt;&lt;/span&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;这时，你要考虑每个维度所追求的价值、目标、兴趣、行为和结果，它们彼此兼容还是互不相容？想象一下，如果你在4个圈里的愿望，以及实现愿望的方法都能完美地依次排开，如同树干上的年轮同心圆，那么，你的人生将会怎样？对于我们大多数人来说，这是一个无法企及的梦想，但是采取什么切实行动能够让你步向那种理想状态呢？怎样做才能在改变工作方式、甚至是对工作目的的看法时，又不削弱在工作中获得的个人价值呢？你能帮助家人更清楚地认识到，你的工作为他们带来的益处，从而让他们更支持你的工作吗？&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;一个名为“话匣子”的补充练习鼓励人们坚持始终如一的价值观。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;这涉及将一个非职场中的物件（如家庭照片或旅游纪念品）带进办公室。如果有同事提到它，你可以解释一下它在你生活中的意义，以及它对你工作的帮助。然后，可以考虑让那个人把他或她自己的“话匣子”带来。你也可以把工作中用到的东西带回家，讲给你的室友、配偶、孩子或共进晚餐的客人听。告诉他们你在做什么、你在工作中扮演什么角色，重点聊一些对他们而言可能有意义的内容。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;section style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; powered-by=&#34;xiumi.us&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 10px 0px; padding: 0px; max-width: 100%; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 3px; max-width: 100%; display: inline-block; border-top: 6px solid rgb(170, 38, 16); word-wrap: break-word !important;&#34;&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 18px; word-wrap: break-word !important;&#34;&gt;保持完整性的技巧&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;我在“全面领导力”课上提到的第二项原则是保持完整性，或者说保持行为的统一性。我的意思是&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;你是自己所扮演的全部角色之和，要尊重这一事实，并鼓励其他人以同样的方式看待你。&lt;/span&gt;要做到这一点，你必须能够：&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;section style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; powered-by=&#34;xiumi.us&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 30px 0px 10px; padding: 0px; max-width: 100%; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 10px; max-width: 100%; display: inline-block; width: 603px; border-width: 1px; border-style: solid; border-color: rgb(192, 200, 209); background-color: rgb(254, 255, 255); box-shadow: rgb(220, 221, 221) 3.53px 3.53px 0px; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; powered-by=&#34;xiumi.us&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; text-align: left; word-wrap: break-word !important;&#34;&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;1.明确预期。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;2.帮助别人。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;3.建立支持网络。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;4.运用所有资源。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;5.明确管理边界。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;6.将不同维度融合在一起。&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;在此处，最重要的技巧之一是了解如何将人生不同领域的所有资源（例如你的知识、技巧和人际关系）都调动起来，从而令你在4个维度都能充分受益。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;一项名为&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;“才华转移”&lt;/strong&gt;的练习能够帮到你。你将已有技能全部罗列下来——例如指导同事、组织家庭活动，或在教堂举行烘焙食品售卖活动，然后想一想如何利用每种技能，来实现其他目的。&lt;/span&gt;&lt;/inherit&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;组织心理学家将此称为“优势发展法”，即确定自己的才华，然后将其运用到新领域，进一步提升它们。&lt;/span&gt;&lt;/strong&gt;&lt;/inherit&gt;&lt;/inherit&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;另一种可行的办法是回忆某件事——例如工作成就、友情、对萨尔萨舞的坚持，接着再考虑一下你想提升人生的哪个领域，然后再思考一下，如何利用那些能让你取得成绩的才华，来提升你想要改进的人生维度。&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;明确管理边界是另一项重大挑战。&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;我建议人们练习“分割与融合”技巧，然后决定什么时候运用哪种策略最为有效。&lt;/span&gt;首先，考虑一下不同角色（在时间和空间上）的分隔。你可以尝试为自己设置一些限制。例如，假如你有一项雄心勃勃的工作计划，但一直拖着没办，那么可以尝试在下个月的每周六清晨，利用两小时时间处理此事，其他时间休息。或者，如果整个晚上你都要工作，你可以尝试实行“餐桌上不用智能手机”策略。&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;现在我们反其道而行之：想想有没有机会将人生的两个或多个维度融合在一起。你可以领孩子去参观公司赞助的慈善机构，或者带同事去参加你家附近举办的街区聚会。&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;在试过一种新分割和新融合方法后，将感受记录下来，看看对于你和周围人来说，哪些方法可行，哪些行不通。&lt;/span&gt;你的效率提高还是下降了？注意力分散的情况有所改善，还是变更糟了？其他人有什么反应？他们对你敬而远之，还是看起来更亲近、更信任你了？&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;分割理念的真实案例来自布莱恩，一位会计师事务所经理。&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;他做了一个月的实验，把40分钟的乘火车上下班时间全部当做“停工期”，他利用这段时间回复家人和朋友的电子邮件，并通过阅读和反思&lt;/span&gt;（例如列出影响情绪稳定的因素，包括压力和精力，以及对自己、人际关系和未来的感受），专注于自身的发展。在火车上，他有时并不独处，而是与坐在旁边的同事及熟人聊天，谈论育儿或房地产等。&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;只是简简单单将上下班时间重新分配——从处理公务到做其他事，布莱恩的工作准备更充分，对事业的追求也更积极。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;这种结果可能看似有悖常理，但事实就是如此。同时他还发现，在上下班的路上，与亲戚、老朋友及本社区的人们频繁接触，使自己与他们的关系更加亲近。下班后的缓冲期使他在跨入家门时压力减轻了很多，心胸更加开阔，对如何做一个好父亲和好丈夫有了新感悟。就个人而言，他也感到“更脚踏实地，不再无所适从”。他更清楚地认识到休息对业绩表现的积极影响，于是试着把每天的睡眠时间延长一小时。实践再次证明，边界的小小改变可以大大提高他的工作效率、幸福感和人际关系。每一个日常跟他打交道的人都注意到，他不再那么古怪，而是更有活力了。&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;section style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; powered-by=&#34;xiumi.us&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 10px 0px; padding: 0px; max-width: 100%; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 3px; max-width: 100%; display: inline-block; border-top: 6px solid rgb(170, 38, 16); word-wrap: break-word !important;&#34;&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;strong style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 18px; word-wrap: break-word !important;&#34;&gt;保持创新性的技巧&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;“全面领导力”的第三大原则是保持创新性，即以创新性做法确定和寻求4个维度的共赢。要做到这一点，你需要：&lt;/span&gt;&lt;/p&gt;&lt;section style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; powered-by=&#34;xiumi.us&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 30px 0px 10px; padding: 0px; max-width: 100%; text-align: center; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 10px; max-width: 100%; display: inline-block; width: 603px; border-width: 1px; border-style: solid; border-color: rgb(192, 200, 209); background-color: rgb(254, 255, 255); box-shadow: rgb(220, 221, 221) 3.53px 3.53px 0px; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; powered-by=&#34;xiumi.us&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 14px; text-align: left; word-wrap: break-word !important;&#34;&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;1.注重结果。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;2.解决不同维度间的冲突。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;3.改变现状。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;4.寻找新的做事方式。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;5.勇敢面对变化。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;6.在你周围营造创新文化。&lt;/span&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;有几种卓有成效的练习能帮你提高注重结果的能力，尤其是能让你关注做事的质量，而非你倾注在其中的时间或精力，&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;情景练习是其中之一&lt;/span&gt;。它要求你明确一个想达成的具体目标，然后列出3个可供选择的实现方式，包括需要的资源和面临的挑战。这种头脑风暴能让你始终聚焦于将获得的“战利品”上。&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;另一种方法是采取新的行为模式，尝试在不同时段或不同地点做同样的事情。&lt;/span&gt;它可以是一些很简单的动作，比如在健身房而不是在家里刮胡子，或者下班后在办公室而不是在家里练小号，以免干扰邻居。试想一下，打破常规的利弊在哪？会对结果产生何种影响？&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;众包练习有助于让你以全新视角审视做事方式。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;你可以试着将一些最有创造力的朋友召集在一起，跟他们说说你眼下面临的难题，然后请他们提供可能的解决方案，并把听到的话记录下来。从中选择一个在你看来最聪明的点子，起草计划，努力实现它。与你的顾问团保持联系，至少每周聚会一次，过一个月左右，跟他们一起评估你的成果。如果尝试的办法没有奏效，或者需要更多时间来解决问题，那就调整你的行为，或在总结经验教训的基础上，尝试另一个想法。&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;inherit style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; color: rgb(0, 128, 255); word-wrap: break-word !important;&#34;&gt;过你想要的生活是一门艺术。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;同音乐、写作、舞蹈之类的任何一种运动一样，你需要反复练习各种技巧。这是我和其他一些人开发这些练习的原因所在。从三大原则入手，保持真实性、全面性和创新性。了解实现每一种原则所需的技巧，然后将它们付诸实践，收获乐趣与成果，使这些技巧成为你领导能力的一部分。&lt;/span&gt;&lt;/inherit&gt;&lt;/p&gt;&lt;/div&gt;"
+        var temp = document.createElement("div");
+        temp.innerHTML = content;
+        var output = temp.innerText || temp.textContent;
+        temp = null;
+        var cont = document.querySelector('.cont')
+        cont.innerHTML = output;
+
+        $(document).ready(function() {
+		    $(".nav").find("li").eq(4).addClass("nav-select");
+	    });
+    }
+    </script>
+
+       <!-- 悬浮手机 -->
+  <div class="fix-phone consult"></div>
+
+  <div class="footer">
+    <div class="foo-content clear">
+      <div class="inner">
+        <ul>
+          <li class="title">理享家</li>
+          <li><a href="../../www.lxjcfbx.com/about.htm">关于理享家</a></li>
+          <li><a href="../../about_2.htm">常见问题</a></li>
+          <li><a href="../../about_3.htm">法律声明</a></li>
+        </ul>
+        <ul>
+          <li class="title">联系我们</li>
+          <li>电话：010-57262841</li>
+          <li>服务时间：9:00-18:00</li>
+        </ul>
+        <div class="right">
+          <div class="code"><img src="../../static/img/frontend/public/code.jpg" alt="二维码-理享家" /></div>
+          <p>扫码二维码</p>
+          <p>咨询海外资产咨询顾问</p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">版权所有 Copyright©2017 理享家 Asset Pro Co.Limited. All rights reserved</div>
+  </div>
+  <script>
+      (function(){
+          var bp = document.createElement('script');
+          var curProtocol = window.location.protocol.split(':')[0];
+          if (curProtocol === 'https'){
+              bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+          }
+          else{
+              bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+          }
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(bp, s);
+      })();
+  </script> 
+</div>
+<script src="../../static/js/frontend/form.js"></script>
+ 
+</body>
+</html>

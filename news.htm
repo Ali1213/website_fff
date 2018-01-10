@@ -1,0 +1,3089 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>【新闻资讯_理财保险资讯|金融资讯】_海外资产配置资讯-理享家</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="理享家">
+    <script src="static/js/public/jquery-3.1.1.min.js"></script>
+     
+<meta name="keywords" content="理财咨询,基金理财资讯,最新金融资讯,金融资讯平台,现货时报财富资讯,苏宁财富资讯,东方财富资讯,今日财经资讯" />
+<meta name="description" content="最新财富资讯,海外基金资讯、海外保险资讯、基金理财资讯尽在理享家新闻资讯。理享家作为中国最大高端理财师社群,旨在让销售更有价值,让海外资产配置渐变轻松" />
+<link rel='stylesheet' href='static/css/frontend/news.css' />
+<link rel="stylesheet" href="static/css/frontend/page.css" />
+<script src="static/js/frontend/jPages.js"></script>
+
+    <link rel="shortcut icon" href="static/img/frontend/public/icon.png"/>
+    <link rel="stylesheet" href="static/css/frontend/base.css"/>
+    <link rel="stylesheet" href="static/css/frontend/header.css"/>
+    <link rel="stylesheet" href="static/css/frontend/footer.css"/>
+    <link rel='stylesheet' href='static/css/frontend/form.css'/>
+    <script name="baidu-koubei-verification" src="ikoubei.baidu.com/embed/8cd3a98723f1342aaa88d882864aa33e.JS"></script>
+    <style>
+        .content {
+            position: relative;
+        }
+
+        .link {
+            width: 1200px;
+            margin: 0 auto;
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: normal;
+            position: absolute;
+            top:20px;
+            left:50px;
+            visibility:hidden;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div id="baseForm">
+    <div class="form form1">
+    <div class="mask"></div>
+   <form class="formBox" id="form" method="post">
+      <div class="formTitle">
+         <img src="static/img/frontend/form/formTop.png" />
+      </div>
+      <ul class="formCont">
+         <li>
+            <span>如何称呼您<i>*</i></span>
+            <input type="text" name="name" id="input_name">
+         </li>
+         <li>
+            <span>性别<i>*</i></span>
+            <span class="mr"><input type="radio" name="sex" checked value="男" /> 男</span>
+            <span><input type="radio" name="sex" value="女"> 女</span>
+         </li>
+         <li>
+            <span>联系电话<i>*</i></span>
+            <input type="phone" name="phone" id="input_phone">
+         </li>
+         <!--<li>-->
+            <!--<span>电子邮箱<i>*</i></span>-->
+            <!--<input type="email" name="email" required>-->
+         <!--</li>-->
+         <li>
+            <span>您的微信</span>
+            <input type="text" name="wechat" id="input_wechat">
+         </li>
+         <li class="tips">
+            <b>!</b>我们会在第二个工作日9:00-18:00与您联系
+         </li>
+         <li class="btn">
+            <span class="form1Cancel" id="formCancel">取消</span>
+            <button type="submit" class="form1Submit">提交</button>
+         </li>
+      </ul>
+   </form>
+</div>
+
+
+
+</div>
+<div id="baseForm1">
+    <div class="form form2">
+    <div class="mask"></div>
+   <form class="formBox" id="form1" method="post">
+      <div class="formTitle">
+         <img src="static/img/frontend/form/formTop.png" alt="">
+      </div>
+      <ul class="formCont">
+         <h3>被保人信息</h3>
+          <li>
+              <span>保险公司</span>
+              <input type="text" value="" name="company" disabled>
+          </li>
+          <li>
+              <span>保险产品</span>
+              <input type="text" value="" name="product" disabled>
+          </li>
+          <li style="margin: 19px 73px;">
+              <span>认购货币</span>
+              
+          </li>
+          <li>
+              <span>缴费年限</span>
+              <select name="moneyYear">
+                  
+              </select>
+          </li>
+          <li>
+              <span style="padding-top: 13px;float: left;">年缴保费<br><b style="font-weight: normal;">(单位：万)</b></span>
+              <input type="text" name="money" style="margin-left: 4px;">
+          </li>
+          <li>
+              <span>姓名</span>
+              <input type="text" name="insuredName">
+          </li>
+          <li>
+            <span>性别</span>
+            <span class="mr"><input type="radio" name="insuredGender" checked required value="男"> 男</span>
+            <span><input type="radio" name="insuredGender" value="女"> 女</span>
+         </li>
+          <li>
+            <span>吸烟</span>
+            <span class="mr"><input type="radio" name="smoke" checked required value="是"> 是</span>
+            <span><input type="radio" name="smoke" value="否"> 否</span>
+         </li>
+          <li>
+              <span>出生日期</span>
+              <input name="birthday" type="date" value="1994-05-20">
+          </li>
+          <h3>您的信息</h3>
+         <li>
+            <span>如何称呼您<i>*</i></span>
+            <input type="text" name="insureName" required>
+         </li>
+         <li>
+            <span>您的邮箱<i>*</i></span>
+            <input type="email" name="insureEmail" required>
+         </li>
+          <li>
+            <span>您的手机<i>*</i></span>
+            <input type="phone" name="insurePhone" required>
+         </li>
+         <li>
+            <span>您的微信</span>
+            <input type="text" name="insureWechat">
+         </li>
+         <li class="tips">
+            <b>!</b>我们会在第二个工作日9:00-18:00与您联系
+         </li>
+         <li>
+            <span class="form1Cancel" id="form1Cancel">取消</span>
+            <button type="submit" class="form1Submit">提交</button>
+         </li>
+      </ul>
+   </form>
+</div>
+
+
+
+</div>
+<div class="bg">
+     	<div class="header clear">
+		<div class="inner">
+			<div class="logo">
+				<a href="www_lxjcf_default.html"><img src="static/img/frontend/public/logo.png" alt="理享家" title="理享家"  /></a>
+			</div>
+			<p>值得信赖的海外资产配置服务平台</p>
+			<ul>
+				<li>
+					<i></i>010-57262841
+				</li>
+				<li class="consult">立即咨询</li>
+			</ul>
+		</div>
+	</div>
+	<div class="nav clear">
+		<div class="inner">
+			<ul>
+				<li >
+					<a href="www_lxjcf_default.html" >首页</a>
+				</li>
+				<li >
+					<a href="www.lxjcfbx.com/product.htm">海外保险</a>
+				</li>
+				<li >
+					<a href="www.lxjcfbx.com/invest.htm">投资移民</a>
+				</li>
+				<li >
+					<a href="fund.htm">海外基金</a>
+				</li>
+				<li >
+					<a href="news.htm">新闻资讯</a>
+				</li>
+				<li >
+					<a href="www.lxjcfbx.com/about.htm">平台介绍</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+ 
+    
+   <div class="con clearfix content">
+          <div class="link">
+       <a href="www_lxjcf_default.html"><span>理享家---></span></a>
+       <a href="news.htm"><span>新闻资讯---></span></a>
+       <span>理财保险资讯,金融资讯</span>
+   </div>
+      <ul class="leftList" id="jPages">
+         
+         <li>
+             
+             <a href="news/detail/5a4ca8a84f6eb80e0a3dbcaa.htm" alt="友邦最新重疾——加裕智倍保全解读-理享家" title="友邦最新重疾——加裕智倍保全解读">
+             
+             <div class="title">友邦最新重疾——加裕智倍保全解读</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/68LHMYmJLeyk03vz.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     香港友邦-加裕倍安保加强版无疑是2017年香港保险最畅销的重疾险，作为一款针对癌症多次赔付的重疾险，备受客户青睐。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-03 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a378e6f4f6eb864fa5c9c5d.htm" alt="活动预告│家庭资产传承与财富保全-理享家" title="活动预告│家庭资产传承与财富保全">
+             
+             <div class="title">活动预告│家庭资产传承与财富保全</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/alRompl0fmUxoKBE.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     财力再雄厚的大家族，在财富积累经历两三代以后，想要财富不衰减，已经成为极为挑战的事。家族财富传承，是摆在中国富人面前的一道难题。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-18</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a2e4bd34f6eb864fa5c9c26.htm" alt="活动预告│储蓄分红产品详细对比及方案推荐-理享家" title="活动预告│储蓄分红产品详细对比及方案推荐">
+             
+             <div class="title">活动预告│储蓄分红产品详细对比及方案推荐</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/RfSHRKKTPkKDCirR.png" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     特朗普税改的短期影响可能集中在对市场预期以及资本流动的影响。  美元指数至少半年时间内将相对强势。推升经济增长预期、通胀预期，美联储很可能因此加快紧缩步伐。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-11</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a2506bf4f6eb864fa5c9c0f.htm" alt="活动预告│香港保险的销售技巧——海外资产配置不可或缺的一环-理享家" title="活动预告│香港保险的销售技巧——海外资产配置不可或缺的一环">
+             
+             <div class="title">活动预告│香港保险的销售技巧——海外资产配置不可或缺的一环</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/V4T1hHrN1R1WAgHy.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     12月2日，特朗普税改法案在参议院以51:49票获得通过！  特朗普将其视为美国人民的巨大胜利；而反对者却认为该法案在给企业和富人减税。不光是美国内部，其它各国也在盘算，特朗普税改法案的推行对本国的影响。如此重要的特朗普税改，到底说了些什么？
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-04</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a1cda9c4f6eb864fa5c9bdd.htm" alt="活动预告|泰国房产风向标-理享家" title="活动预告|泰国房产风向标">
+             
+             <div class="title">活动预告|泰国房产风向标</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/NwpqDR6sHDwhuj3Q.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     近年来，全球化资产配置“热潮”兴起。海外投资也受到越来越多投资者的关注，随着我国国民收入水平的不断提升，我国海外资产配置也开始呈现出“井喷式”地增长。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-11-28</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a12c1064f6eb81a8e660765.htm" alt="活动预告|安进——储蓄分红黑马-理享家" title="活动预告|安进——储蓄分红黑马">
+             
+             <div class="title">活动预告|安进——储蓄分红黑马</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/TCJlkyrAjFCsKBR3.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     近期，内地居民赴港购买保险的热潮再次成为人们关注的焦点。据媒体报道，不少香港保险公司的验证中心门口排起了长队，甚至连以往不工作的周末也安排上了。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-11-20</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a09689f4f6eb81a8e66072c.htm" alt="活动预告|太平金钻荣耀回归-理享家" title="活动预告|太平金钻荣耀回归">
+             
+             <div class="title">活动预告|太平金钻荣耀回归</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/SgWdxguIhuMai7sO.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     千呼万唤始出来！据可靠消息，令众人疯狂倾倒的被誉为五倍杠杆低风险套利之王的“太平金钻账户”即将于11月18日强势回归绝对不容错过！本次太平香
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-11-13</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59ffcaaf4f6eb85dfd8404a2.htm" alt="活动预告│美国教育专讲——国际教育背景下的中国家庭规划-理享家" title="活动预告│美国教育专讲——国际教育背景下的中国家庭规划">
+             
+             <div class="title">活动预告│美国教育专讲——国际教育背景下的中国家庭规划</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/tLMkrnC47hO0PoIS.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     近几年，越来越多的中国家长选择让其孩子接受美国教育，那么，美国教育与中国教育究竟存在哪些差异，是什么吸引着众多中国家长不惜置业美国，通过移民等方式来为孩子的教育进行规划，在当前这种国际教育背景下，中国家庭该如何为孩子的未来进行规划呢？我们希望能帮助更多的家庭解决孩子教育上的困惑，为大家提供更多的意见及建议。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-11-6</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59f44ce84f6eb841597d361b.htm" alt="活动预告│中高净值人群不可不知的海外资产配置方法-理享家" title="活动预告│中高净值人群不可不知的海外资产配置方法">
+             
+             <div class="title">活动预告│中高净值人群不可不知的海外资产配置方法</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/Nyz2ibR2K8MtHfgv.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     据香港媒体报道，李嘉诚在香港的标志性建筑，也是李嘉诚一生荣耀的象征，中环中心作价402亿港币，于10月23日终于脱手了！
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-10-30</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59ec91004f6eb80f2edda7f6.htm" alt="活动预告│中高净值人群不可不知的海外资产配置知识-理享家" title="活动预告│中高净值人群不可不知的海外资产配置知识">
+             
+             <div class="title">活动预告│中高净值人群不可不知的海外资产配置知识</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/oBMZFXx4hL8x2qVo.png" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     随着国人财富增长，中国进入消费升级时代，从中产阶级到高净值人群，财富管理意识显著增强，将投资事业投向海外成为趋势。而且，从近几年的发展趋势来看，海外投资早已不是富人的专利，普通人也同样有了此类需求。无论是为了子女留学，还是移民和养老，抑或只是单纯想让资产更多元化，需求多种多样，而海外投资环境复杂，大部分人对如何进行海外投资却知之甚少，高净值客户及所有开始进行海外资产配置的人比以往更依赖专业的财富管理机构。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-10-23</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59e44efa4f6eb80babbe690b.htm" alt="活动预告│中高净值人群海外资产配置必修课 -理享家" title="活动预告│中高净值人群海外资产配置必修课 ">
+             
+             <div class="title">活动预告│中高净值人群海外资产配置必修课 </div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/KvWIcx2brCbTWph4.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     近年来，中国的高净值人群进行海外资产的配置比例越来越高。但是，即便如此，我们如果做一个横向比较，我们还是会发现中国人海外资产配置比例并不高。发达国家家庭海外资产配置目前约为15%左右，某些国家甚至更高，比如新加坡，由于自身市场太小，资本市场又发达，足不出户就可以全世界投资，所以比例更是高达37%。而中国家庭的海外资产配置目前仅为4%~5% 左右。也就是说，99%的中国家庭是没有海外资产的。即便是中国的高净值人群，海外资产配置比例也并不高。  
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-10-16</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59c8dbbb4f6eb85771f88598.htm" alt="活动预告│中高净值人群海外资产配置必修课 -理享家" title="活动预告│中高净值人群海外资产配置必修课 ">
+             
+             <div class="title">活动预告│中高净值人群海外资产配置必修课 </div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/6TEdMZZIaCj8iSjO.png" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     时光荏苒如白驹过隙，2017年的九月已然接近尾声，在此之前，理享家的每一位员工秉持着专业、真诚的服务态度为每个家庭提供资产配置的专业及个性化建议，在接下里的日子里，我们将更加努力，为每一位需要理享家的人提供最优质的服务，当然，我们也真诚的希望你能加入到我们，与我们共同成长 ！
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-9-25</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59bce3a34f6eb838c8dce2e2.htm" alt="活动预告│财富之上的愿景——海外资产配置 -理享家" title="活动预告│财富之上的愿景——海外资产配置 ">
+             
+             <div class="title">活动预告│财富之上的愿景——海外资产配置 </div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/cLQY4rpbvUjqyG6b.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     当下，中国经济情况呈现出系统性风险特点，高净值人群迅速增长的同时，也伴随着日益突出财富传承的困惑。此时，海外资产配置正作为一类新兴财富管理方式逐步在国内得到更广泛的关注。高净值人群要想守住财富，就需要考虑合理的海外配置来获得更为稳健的投资收益，海外购房、海外投资成为了如今社会的热门话题，有专家预测“全球化资产配置”也..
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-09-18</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59b3b0ef4f6eb820c3b40368.htm" alt="活动预告│新经济形势下，全球资产配置势在必行  -理享家" title="活动预告│新经济形势下，全球资产配置势在必行  ">
+             
+             <div class="title">活动预告│新经济形势下，全球资产配置势在必行  </div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/lo9PkMuzDFDQ9NHp.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     在财富管理的市场中，投资人对于未来思考更多的是：如何规避风险，如何守住财富。回答这个问题，我们能看到的最现实的路径就是：资产的海外配置！
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-09-11</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59a639ef4f6eb81e858fe98f.htm" alt="理享家：八月活动火热进行，众专家共探资产配置逻辑-理享家" title="理享家：八月活动火热进行，众专家共探资产配置逻辑">
+             
+             <div class="title">理享家：八月活动火热进行，众专家共探资产配置逻辑</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/ogIS4aFFkfsfWkx5.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     随着国家金融政策和产业政策的双向调整，资本正在呈现“脱虚向实”，开始转向中长期的价值投资和实体经济。在新资本趋势下，投资者如何调整“姿态”，又该如何配置资产? 
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-8-28</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/599aa2b74f6eb806d8b03a9b.htm" alt="理享家：全国范围线上线下分享会为海外资产配置解疑答惑-理享家" title="理享家：全国范围线上线下分享会为海外资产配置解疑答惑">
+             
+             <div class="title">理享家：全国范围线上线下分享会为海外资产配置解疑答惑</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/Ejlim7AF0vYnaNoB.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     理享家作为专业的海外资产配置咨询平台，于本周我们特别邀请到美国寿险专家，其曾在2017年巴菲特股东大会的中国投资人论坛中，作为与会嘉宾就中国投资人在美国进行保险理财投资发表了独到的见解，并在随后两天的奥马哈投资峰会上和其他参会者就这一话题进行了深入探讨。此次活动，我们的神秘嘉宾将针对美国寿险与高净值客户税务规划进行详解
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-08-21</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/599297a04f6eb85a87b1f5b6.htm" alt="理享家：线上线下活动齐头并进，资产配置如火如荼-理享家" title="理享家：线上线下活动齐头并进，资产配置如火如荼">
+             
+             <div class="title">理享家：线上线下活动齐头并进，资产配置如火如荼</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/Y1xIfIb4y4C7tNvW.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     一直以来，理享家都怀着一颗热忱的心，希望能与更多的人分享资产配置新理念，共同探索财富管理的成功之道，为此，我们不懈努力。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-08-15</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59715a684f6eb85474bbd363.htm" alt="理享家创始人黄海荣获福布斯“30岁以下精英”-理享家" title="理享家创始人黄海荣获福布斯“30岁以下精英”">
+             
+             <div class="title">理享家创始人黄海荣获福布斯“30岁以下精英”</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/1FD6zWtEAkCknr9J.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     2014年，黄海从香港摩根士丹利辞职来到北京创业，在他的带领下，理享家从中关村一隅的创业团队，发展为覆盖北京、上海、杭州、南京、武汉、成都、郑州和贵阳等全国十九个重点城市的业务网络。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-07-20</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/596d72084f6eb82ece9c3ba3.htm" alt="理享家CEO朱超受邀出席朗迪峰会 解读全球资产配置新趋势-理享家" title="理享家CEO朱超受邀出席朗迪峰会 解读全球资产配置新趋势">
+             
+             <div class="title">理享家CEO朱超受邀出席朗迪峰会 解读全球资产配置新趋势</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/Ik9Rh0zRiYRXH9kV.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     近日，全球最具影响力之一的金融科技峰会——朗迪金融科技峰会(LendIt China)在上海开幕。现场超过2000位嘉宾参会，是中国最大规模的年度金融科技领袖峰会。理享家CEO朱超先生作为拥有海内外资产配置背景的业内人士受邀主持“从亚太和全球视野来全面解读全球资产配置策略”这一板块，深度探讨海外市场、解读资产配置新趋势。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-07-17</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59644ede4f6eb8051ae083d6.htm" alt="消费理念升级下的全球资产配置-理享家" title="消费理念升级下的全球资产配置">
+             
+             <div class="title">消费理念升级下的全球资产配置</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/bR7S0lE5UBSgTzBw.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     随着中国人财富的增加，消费理念的变化，中国消费者开始进入“消费升级时代”。在开口必谈消费升级的当下，品质、服务、体验感几乎成了人们理解消费升级的关键词。消费结构的升级正驱动着相关产业的增长，如医疗保健、房地产行业等。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-07-11</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59560e2f4f6eb8547f43ca8a.htm" alt="理享家CEO朱超先生受邀出席中国消费金融战略发展峰会-理享家" title="理享家CEO朱超先生受邀出席中国消费金融战略发展峰会">
+             
+             <div class="title">理享家CEO朱超先生受邀出席中国消费金融战略发展峰会</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/Tz7yewwNoAqILprY.jpeg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                      2017年3月28日，由中国消费金融战略发展峰会组委会主办的“中国消费金融战略发展峰会2017年度盛会”在上海大华锦绣假日酒店召开，随着中国进入科技创新驱动发展的新时代的步伐加速，以“互联网+”为代表的新技术、新业态、新模式成为行业发展新引擎。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-04-07</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59560e7f4f6eb8547f43ca8b.htm" alt="理享家和金销帮主办的第二届海外资产配置高峰论坛圆满落幕-理享家" title="理享家和金销帮主办的第二届海外资产配置高峰论坛圆满落幕">
+             
+             <div class="title">理享家和金销帮主办的第二届海外资产配置高峰论坛圆满落幕</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/ceAFeCI6Cz2qFJJI.jpeg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     大智慧阿思达克通讯社4月5日讯，由理享家联合金销帮主办的“新未来·2017年第二届海外资产配置高峰论坛”于3月25日在上海陆家嘴金茂君悦大酒店圆满落幕。在此次峰会上理享家推出事业合伙人制，开拓了财富管理行业新模式。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-04-05</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59560eda4f6eb8547f43ca8c.htm" alt="理享家推出事业合伙人制 开拓财富管理行业新模式-理享家" title="理享家推出事业合伙人制 开拓财富管理行业新模式">
+             
+             <div class="title">理享家推出事业合伙人制 开拓财富管理行业新模式</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/dtqooWGS2ABNkP0V.jpeg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                      3月25日下午，由理享家和金销帮联合主办的第二届(上海)海外资产配置高峰论坛在上海金茂君悦大酒店盛大开启，来自全国各地200多位财富管理精英共聚一堂，共同探讨未来在国内经济新常态下海外资产配置的新趋势。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-03-28</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59560f854f6eb8547f43ca91.htm" alt="理享家CEO朱超先生解读新常态下的海外资产配置-理享家" title="理享家CEO朱超先生解读新常态下的海外资产配置">
+             
+             <div class="title">理享家CEO朱超先生解读新常态下的海外资产配置</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/y7YlJL9lviTc4gsc.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     2017年2月25日、26日，主题为“新生活、新健康、新财富、新出行”的海外置业、海外医疗、财富论坛如期在成都举行。为了更好的服务于广大高净值客户，提供全面的海外配套服务项目，理享家联合创始人兼CEO朱超先生作为海外资产配置方面独树一帜的代表,解读了在“新常态”下的财富保全与消费升级。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-02-28</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59560f3f4f6eb8547f43ca8f.htm" alt="理享家平台受邀出席全球资产配置百人会成立一周年颁奖典礼-理享家" title="理享家平台受邀出席全球资产配置百人会成立一周年颁奖典礼">
+             
+             <div class="title">理享家平台受邀出席全球资产配置百人会成立一周年颁奖典礼</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/e4HQx7vpkUXnSAtd.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     2017年1月8日，为了对全球资产配置相关领域做出贡献的优秀业界同仁表达敬意，“全球资产配置百人会”成立一周年颁奖典礼在北京三元桥维景国际酒店隆重召开。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-01-12</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59560ef04f6eb8547f43ca8d.htm" alt="海外资产配置平台理享家应邀出席第三届中国式众筹年会-理享家" title="海外资产配置平台理享家应邀出席第三届中国式众筹年会">
+             
+             <div class="title">海外资产配置平台理享家应邀出席第三届中国式众筹年会</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/yjabqV9gLLQo2BRw.png" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     第三届&#34;众筹•众治•众享 新中国合伙人”盛会于12月28日在北京国家会议中心举办，理享家（http://www.lxjcfbx.com/）作为海外资产配置行业代表企业应邀出席本次大会。截至目前，理享家已获得包括贝塔斯曼亚洲基金、Infinity Venture Partners、长安私人资本、紫辉创投、国金证券和涌铧投资等多家国内外一线投资机构倾力支持。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-01-03</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59560e154f6eb8547f43ca89.htm" alt="消费升级下海外资产配置新趋势-理享家" title="消费升级下海外资产配置新趋势">
+             
+             <div class="title">消费升级下海外资产配置新趋势</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/4gn2dUpkYkglxudW.png" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     由理享家&amp;多彩投联合主办的“开放•融合•颠覆”2016年海外资产配置高峰论坛于12月10日在北京长安街W酒店成功举办。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2016-12-27 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59560d284f6eb8547f43ca88.htm" alt="理享家：消费升级时代的海外资产配置专家-理享家" title="理享家：消费升级时代的海外资产配置专家">
+             
+             <div class="title">理享家：消费升级时代的海外资产配置专家</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/p6T9PnTxfBbmIvYo.png" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     理享家作为一个“让销售更有价值、让海外资产配置更轻松”的值得信赖的海外资产配置服务平台。团队由拥有资深华尔街投资管理背景的专业人士组成，已经为国内数十家顶级第三方理财与资产管理公司提供专业的海外资产配置咨询服务。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2016-12-22</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59560c754f6eb8547f43ca87.htm" alt="中国保险营销第一人蹇宏的资产保全与财富传承-理享家" title="中国保险营销第一人蹇宏的资产保全与财富传承">
+             
+             <div class="title">中国保险营销第一人蹇宏的资产保全与财富传承</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/XfZvwQs1QDIH6ICz.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     2016年12月10日，由理享家主办的“2016年海外资产配置高峰论坛”于北京长安街W酒店成功举行。本次峰会有幸邀请到中国大陆第一位MDRT顶级会员、正隆保险经纪公司董事长兼CEO蹇宏先生做“资产保全和财富传承”的主题演讲。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2016-12-15</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59560c1c4f6eb8547f43ca86.htm" alt="理享家：2016年海外资产配置高峰论坛圆满落幕-理享家" title="理享家：2016年海外资产配置高峰论坛圆满落幕">
+             
+             <div class="title">理享家：2016年海外资产配置高峰论坛圆满落幕</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/pCFtOontlwi5KwXq.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     由理享家主办的“2016年海外资产配置高峰论坛”于12月10日在北京长安街W酒店圆满落幕。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2016-12-14</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59560b7e4f6eb8547f43ca85.htm" alt="访理享家CEO朱超：我们为何切入香港保险信息服务？-理享家" title="访理享家CEO朱超：我们为何切入香港保险信息服务？">
+             
+             <div class="title">访理享家CEO朱超：我们为何切入香港保险信息服务？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/46NratbVdvMzqDod.png" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     互联网保险和海外资产配置是近来颇受创业者青睐的两个板块，当两者相遇又会擦出什么样的火花？ 今年四月上线的“理享家”给出了一个答案：通过互联网撮合理财师与香港保险产品.
+                  </div>
+                  <div class="bottomTime">
+                     <span>2016-09-20</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/59bf79814f6eb85771f88561.htm" alt="资产配置：人民币与美元的汇率、特点与优势-理享家" title="资产配置：人民币与美元的汇率、特点与优势">
+             
+             <div class="title">资产配置：人民币与美元的汇率、特点与优势</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/4xdzfIWca8XfACYL.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     上周，恰逢811汇改两周年，曾经被一路看跌的人民币忽然在上周“涨势如虹”。正逢美元指数反弹，此次上涨似乎并非强力干预的结果，更像市场的自发行为。那么，人民币和美元的格局是否就此逆转？投资者增加美元配置的大方向要改变吗？
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-09-18</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4f4fc94f6eb80e0a3dbcc0.htm" alt="紧张时刻，正念唤醒你缓解压力的本能-理享家" title="紧张时刻，正念唤醒你缓解压力的本能">
+             
+             <div class="title">紧张时刻，正念唤醒你缓解压力的本能</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/aSGXGYd580ef9WID.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     正念，不仅是一项精神活动，也同样是一种身体锻炼。看到“正念”这个名字，你可能会觉得只是某种与“心念”有关的体验。实际上，许多研究（包括我自己的研究）已经表明，关注自己的身体感受，通常是一种让我们进入正念状态、帮助我们在压力山大时排解压力的简单方法。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-05 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4f4f7e4f6eb80e0a3dbcbf.htm" alt="不要告诉泰国人，他们迟早都是中国的一个省-理享家" title="不要告诉泰国人，他们迟早都是中国的一个省">
+             
+             <div class="title">不要告诉泰国人，他们迟早都是中国的一个省</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/kHlUW3nKj20Bz3zh.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     泰国迟早都是中国的一个省，这已经是心照不宣的秘密了。如果你不信，看完下面这篇文章。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-05</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4f4f324f6eb80e0a3dbcbe.htm" alt="2018年到了，大部分定居在澳洲的人想实现什么目标？-理享家" title="2018年到了，大部分定居在澳洲的人想实现什么目标？">
+             
+             <div class="title">2018年到了，大部分定居在澳洲的人想实现什么目标？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/QRQZqtVt0WGfcaFT.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     健身是个永远不会过时的目标，它成为2018年最多居澳的人设定的重要目标。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-05 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4f4ee34f6eb80e0a3dbcbd.htm" alt="移民是去欧洲，还是去美国？-理享家" title="移民是去欧洲，还是去美国？">
+             
+             <div class="title">移民是去欧洲，还是去美国？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/fzeWWDr539fup3Lu.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     一直以来，美国都被视为是西方发达民主国家的标杆，是最富裕、最自由、最强大的国家。以至于很多人以为，美国就代表整个西方，即便是欧洲也是唯美国是瞻。并且一提起移民就会首先想到美国，是否美国就真的比欧洲好呢？
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-05 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4f4e9f4f6eb80e0a3dbcbc.htm" alt="超高性价比【加裕智倍保】隆重登场，香港重疾险测评对比火热出炉-理享家" title="超高性价比【加裕智倍保】隆重登场，香港重疾险测评对比火热出炉">
+             
+             <div class="title">超高性价比【加裕智倍保】隆重登场，香港重疾险测评对比火热出炉</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/Uwiad5rnniEGh3G0.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     今天，由香港友邦全新推出的重疾保障计划「加裕智倍保」正式进入预约签单环节！这几天陆陆续续收到很多客户来电咨询这款产品，今天理享家针对这款产品的相关细则在这里进行进一步解读，希望能帮助有需要的朋友更好的了解这款产品。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-05 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4ed83d4f6eb80e0a3dbcbb.htm" alt="复制“中国奇迹”，在这个国家“闭着眼买房”都能赚吗？-理享家" title="复制“中国奇迹”，在这个国家“闭着眼买房”都能赚吗？">
+             
+             <div class="title">复制“中国奇迹”，在这个国家“闭着眼买房”都能赚吗？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/GtZFZrMiK3ix9TK4.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     经过2017年一轮轮暴风骤雨般的调控，国内尤其是一线城市楼市似乎进入了“凛冬”，然而一种新的投资方法也悄然出现。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-05 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4ed7c04f6eb80e0a3dbcba.htm" alt="香港保险，已进入优势与危机并存的红海-理享家" title="香港保险，已进入优势与危机并存的红海">
+             
+             <div class="title">香港保险，已进入优势与危机并存的红海</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/O45c6fUrO2rcRLp7.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     导读：2017年的香港保险市场，已经彻底从蓝海，变为一片红海。不过，那些具备足够软实力与核心竞争力的企业与个人，仍有机会在这片红海市场中施展拳脚，奋力破局。
+                  </div>
+                  <div class="bottomTime">
+                     <span> 2017-1-5</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4ed6704f6eb80e0a3dbcb8.htm" alt="案例说话: 0岁男、15岁男、30岁男，【加裕倍安保加强版】案列详解-理享家" title="案例说话: 0岁男、15岁男、30岁男，【加裕倍安保加强版】案列详解">
+             
+             <div class="title">案例说话: 0岁男、15岁男、30岁男，【加裕倍安保加强版】案列详解</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/2v9Htf25rqixBWa7.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     本款重疾的保障范围 100种危疾保障 54种危疾 39种早期危疾 7种严重儿童疾病
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-05</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4ed71d4f6eb80e0a3dbcb9.htm" alt="香港友邦最新重疾险 「加裕智倍保」产品深度评测-理享家" title="香港友邦最新重疾险 「加裕智倍保」产品深度评测">
+             
+             <div class="title">香港友邦最新重疾险 「加裕智倍保」产品深度评测</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/uGnRm44cnQ07s7bu.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     导读：2018年伊始，香港友邦推出全新重疾险产品「加裕智倍保」，上一代产品「加裕倍安保」也将于近期停售。今天我们就来评测一下「加裕智倍保」这款产品。
+                  </div>
+                  <div class="bottomTime">
+                     <span> 2018-01-05</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4ed5ee4f6eb80e0a3dbcb7.htm" alt="案例说话：0岁男、4岁男、30岁女，【充裕未来2】案列详解-理享家" title="案例说话：0岁男、4岁男、30岁女，【充裕未来2】案列详解">
+             
+             <div class="title">案例说话：0岁男、4岁男、30岁女，【充裕未来2】案列详解</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/lIEo24ls9PrDgpQ2.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     今日您努力储备财富，是为了明日能够一展抱负，享受优悠生活。「充裕未来」计划2，不但带来优厚的潜在长线回报，当您面对突如其来的不幸事故时，亦提供灵活的赔款方式供您选择，让您倍添安心。无论未来如何，我们都将一路协助您增长资本，并保障您将来的生活。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-05</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4e050c4f6eb80e0a3dbcb6.htm" alt="吴晓波：预见2018-理享家" title="吴晓波：预见2018">
+             
+             <div class="title">吴晓波：预见2018</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/baWTjBXnpwOnh1k7.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     一年前，在上海喜玛拉雅大观舞台举行的年终秀上，当时我提出了八个预测，今天我们回过头来看看，已经实现了哪些？以及，我将对2018年的趋势做出八个预测。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-04 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4e048c4f6eb80e0a3dbcb5.htm" alt="越忙越有面儿？这么想你就只能认了劳碌命-理享家" title="越忙越有面儿？这么想你就只能认了劳碌命">
+             
+             <div class="title">越忙越有面儿？这么想你就只能认了劳碌命</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/BpuUNMVgBRuv4tyx.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     “‘周末’到底是什么？”这是以1912年为背景的英剧《唐顿庄园》（Downton Abbey）第一季中，格兰特罕太伯爵夫人维奥莱特·克劳利（Violet Crawley, the Dowager Countess of Grantham）所问的一个知名问题。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-04 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4e04314f6eb80e0a3dbcb4.htm" alt="90天创新成功法则  -理享家" title="90天创新成功法则  ">
+             
+             <div class="title">90天创新成功法则  </div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/5NNoazputOfWZSXi.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     每家公司都会在日常经营管理中有所创新，但极少公司有一套有序、稳定的方法进行创新。绝大多数情况是，许多重大创新是由于个人才能或机缘巧合。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-04 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4e03714f6eb80e0a3dbcb3.htm" alt="奶茶妹妹晒刘强东亲吻照，你们只看到了撒狗粮却忽略最重要的这点！-理享家" title="奶茶妹妹晒刘强东亲吻照，你们只看到了撒狗粮却忽略最重要的这点！">
+             
+             <div class="title">奶茶妹妹晒刘强东亲吻照，你们只看到了撒狗粮却忽略最重要的这点！</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/2RNrhwlvxWTeFJ7s.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     2017年刚过去 大家就纷纷在朋友圈、微博 晒出了自己的跨年照 这不，刘强东和奶茶妹妹也来掺了一脚
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-04 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4e02a24f6eb80e0a3dbcb2.htm" alt="人民日报谈海外就医：他们为何选择出国看病？-理享家" title="人民日报谈海外就医：他们为何选择出国看病？">
+             
+             <div class="title">人民日报谈海外就医：他们为何选择出国看病？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/58t8B5H06bQagzeJ.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     随着国内外医疗信息不断互通，国内媒体关于日本医疗、日本体检等海外体检报道愈加丰富，大家也逐渐有意识地开始选择此类项目进行体验。随着国民健康意识的持续增强，相信选择赴海外进行健康管理和疾病治疗的朋友会越来越多。那么，关于海外体检，有哪些值得我们注意的地方呢？
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-04 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4cad274f6eb80e0a3dbcb0.htm" alt="最可惜的才华，就是你什么都不差，可就是没有哪一项特强-理享家" title="最可惜的才华，就是你什么都不差，可就是没有哪一项特强">
+             
+             <div class="title">最可惜的才华，就是你什么都不差，可就是没有哪一项特强</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/gf2IfPcRAY2Xnas7.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     故事的主角叫汤姆，是财富500强公司的中层销售经理。经过10多年打拼，他的日子过得不错——薪资丰厚，也深受大家喜爱。最近他想申请升职，负责一项全球整合产品线的计划。他颇有信心自己是理想人选，而且认为这是符合逻辑的发展路径，一方面能充分发挥他的所长，另一方面也符合他的志向。另外，汤姆的履历非常漂亮。他从没犯过愚蠢错误，没做过影响职业发展的选择，跟顶头上司也没有矛盾。结果，另一位经验不如他的同事获得了晋升，他震惊了。
+                  </div>
+                  <div class="bottomTime">
+                     <span> 2018-01-03</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4cac4d4f6eb80e0a3dbcaf.htm" alt="预测2018年泛滥成灾，我们决定复盘过往十年，于是找到这些！-理享家" title="预测2018年泛滥成灾，我们决定复盘过往十年，于是找到这些！">
+             
+             <div class="title">预测2018年泛滥成灾，我们决定复盘过往十年，于是找到这些！</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/GIsAVc07ovzJNdol.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     我们从这本书中截取了十个片段素材，它们代表了过往十年里，每一年中最典型的那个时刻。代表了从政策最高层到民间，在面对种种变数和偶然事件之时，在危局之时的应对态度和方式。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-03 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4cabd34f6eb80e0a3dbcae.htm" alt="撕开大鳄赚钱的逻辑！2017年，这群收割者就是这样暴富的！-理享家" title="撕开大鳄赚钱的逻辑！2017年，这群收割者就是这样暴富的！">
+             
+             <div class="title">撕开大鳄赚钱的逻辑！2017年，这群收割者就是这样暴富的！</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/TnVrgbsTs5mvyPZn.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     时光荏苒，岁月如梭，一转眼，2017年就这样过去了。  每一年年底，笔者都会把这一年多来所有产生赚钱效应的市场和品种梳理一遍。然后复盘所有盈利者在里面赚钱的逻辑。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-03 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4cab5e4f6eb80e0a3dbcad.htm" alt="里程碑的意义——中国内地第一款「真·癌症多次赔付」产品-理享家" title="里程碑的意义——中国内地第一款「真·癌症多次赔付」产品">
+             
+             <div class="title">里程碑的意义——中国内地第一款「真·癌症多次赔付」产品</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/8xyK0aje6jvntm95.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     导读：2017年圣诞节，同方全球人寿推出最新防癌险——「康爱一生（多倍保）」，成为中国内地首款借鉴了香港重疾险“癌症多次赔付，三年间隔期，保障癌症新症、转移、复发和持续”特性的重疾产品，预计会对未来中国内地重疾险的产品设计形态产生深远影响。
+                  </div>
+                  <div class="bottomTime">
+                     <span> 2017-1-3</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4caaf14f6eb80e0a3dbcac.htm" alt="香港保险，已进入优势与危机并存的红海-理享家" title="香港保险，已进入优势与危机并存的红海">
+             
+             <div class="title">香港保险，已进入优势与危机并存的红海</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/6ggMG0ISH89k430T.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     导读：2017年的香港保险市场，已经彻底从蓝海，变为一片红海。不过，那些具备足够软实力与核心竞争力的企业与个人，仍有机会在这片红海市场中施展拳脚，奋力破局。
+                  </div>
+                  <div class="bottomTime">
+                     <span> 2018-1-3 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4ca9084f6eb80e0a3dbcab.htm" alt="新年钜惠！一月港险活动汇总来袭！-理享家" title="新年钜惠！一月港险活动汇总来袭！">
+             
+             <div class="title">新年钜惠！一月港险活动汇总来袭！</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/hVaNFGDxjH1xtplK.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     新的一年到来，香港各家保险公司也迎来了新的推广活动，今天，理享家将家总结一月份新出的活动。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-03 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4c9c864f6eb80e0a3dbca9.htm" alt="保险，守护幸福的底线-理享家" title="保险，守护幸福的底线">
+             
+             <div class="title">保险，守护幸福的底线</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/KXNyzDPSQdPImcro.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     每个人都在为幸福划线，一个总是觉得很痛苦的人，往往就是把幸福的底线划得太高，期望值过高，现实才显得不如意。但像史铁生这样，一定吃尽了的苦头，所以才把自己的“幸福底线”定得如此之低。只是他们意识到什么是真正幸福的时候，或许生命留给他们的时间已经少得不能再少。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-01-03</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4c9be14f6eb80e0a3dbca8.htm" alt="【投资必读】一百万人民币左右，为什么海外投资首选泰国？-理享家" title="【投资必读】一百万人民币左右，为什么海外投资首选泰国？">
+             
+             <div class="title">【投资必读】一百万人民币左右，为什么海外投资首选泰国？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/EUDQL6opnkZhUjgG.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     泰国一直以来都是世界上最受欢迎的旅游目的地之一。泰国经济在各个领域保持着活力,其房地产业最为突出。根据泰国政府的统计，泰国房产近一半是由外籍人士持有。并且，目前有180万的外国退休人士在泰国生活。可以这么说，如果你有一百万人民币左右的资金，海外投资首选泰国！
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-03</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4c9b564f6eb80e0a3dbca7.htm" alt="当中国房价碾压日本，人民币就会洒满东京-理享家" title="当中国房价碾压日本，人民币就会洒满东京">
+             
+             <div class="title">当中国房价碾压日本，人民币就会洒满东京</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/1Vib7fLfZ2DsBQUN.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     中国人狂买日本房产，始于北京房价超过东京。2013年，国际货币基金组织数据显示，北京、上海平均房价已超过东京。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2018-01-03 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a444cfc4f6eb864fa5c9cb4.htm" alt="频频打脸，看这些金融分析还有什么用？-理享家" title="频频打脸，看这些金融分析还有什么用？">
+             
+             <div class="title">频频打脸，看这些金融分析还有什么用？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/3GAj7PSu3E62hd81.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     前段日子收到一位朋友私信，他向我抛出了这么个疑问：
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-28 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a444bd54f6eb864fa5c9cb3.htm" alt="这7步走对了，就没有跨不过去的坎儿-理享家" title="这7步走对了，就没有跨不过去的坎儿">
+             
+             <div class="title">这7步走对了，就没有跨不过去的坎儿</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/ybCajQMd4urJxrue.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     我们都可能会在某个时刻遇到突发事件或个人危机，这会让我们无法专心工作。也许是家庭成员生病，或者自己不小心病了，抑或是离婚。这些都是极端艰难的处境，该如何专业地对待？你会向领导或同事袒露正在发生的事件吗？你该如何谋得自己所需，比如灵活的工作时间或者减少工作负担？你怎么才能知道自己是否应该请假？
+                  </div>
+                  <div class="bottomTime">
+                     <span> 2017-12-28 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a444b6a4f6eb864fa5c9cb2.htm" alt="“给你1千万，离开我儿子”“阿姨，真爱得加钱”-理享家" title="“给你1千万，离开我儿子”“阿姨，真爱得加钱”">
+             
+             <div class="title">“给你1千万，离开我儿子”“阿姨，真爱得加钱”</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/DqDiRYbwOAZN6p0T.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     女生虽然每天过着住出租屋、吃外卖的生活，但对爱情是绝对的忠贞不渝：对不起阿姨，我不要，我们是真爱。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-28</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a444aed4f6eb864fa5c9cb1.htm" alt="中国最富裕的1%，把钱花在了哪里？-理享家" title="中国最富裕的1%，把钱花在了哪里？">
+             
+             <div class="title">中国最富裕的1%，把钱花在了哪里？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/ZDBr1Si9DGXOA4C0.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     闺蜜收了她的第五支饺子包。  处于这款包审美盲区中的我，一直get不到它为何风靡。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-28</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a444a784f6eb864fa5c9cb0.htm" alt="呐......80后们，你们要的安全感，香港保险这样买就可以了......-理享家" title="呐......80后们，你们要的安全感，香港保险这样买就可以了......">
+             
+             <div class="title">呐......80后们，你们要的安全感，香港保险这样买就可以了......</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/HUFGJV1bF6VQJiIB.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     七零后身上最闪光的标签：努力工作，重视家庭，推迟享受，投资未来。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-28</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4449ff4f6eb864fa5c9caf.htm" alt="特级隽X陪你过圣诞！-理享家" title="特级隽X陪你过圣诞！">
+             
+             <div class="title">特级隽X陪你过圣诞！</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/F4WTnN4Lmy97r3x7.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     简体字隽，泛指肥美之肉，美味。引申为意味深长，优秀出众之意。   陞简体字升，上也，提升的意思。可以用来表示财富增值。 香港保险圈 特级隽升是香港保险中的一款储蓄分红寿险产品，正如其名，由于稳定的高收益高分红，是市场上最受欢迎的产品。香港保险
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-28</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4449944f6eb864fa5c9cae.htm" alt="看完这些数据，你就知道中国人为什么要买下泰国了-理享家" title="看完这些数据，你就知道中国人为什么要买下泰国了">
+             
+             <div class="title">看完这些数据，你就知道中国人为什么要买下泰国了</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/GHfXTWsHZRsCaRPR.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     大家都说，2017年，中国人正在买下泰国，根据泰国地产管理局的数据，中国人已经成为泰国地产最大的海外买主。  为什么中国人要买下泰国呢？看完下面这几个数据，你就清楚了。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-28</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a44494e4f6eb864fa5c9cad.htm" alt="同方全球康爱一生(多倍保) | 防癌险新标杆！3次赔付！新增、复发、转移、持续癌症均覆盖-理享家" title="同方全球康爱一生(多倍保) | 防癌险新标杆！3次赔付！新增、复发、转移、持续癌症均覆盖">
+             
+             <div class="title">同方全球康爱一生(多倍保) | 防癌险新标杆！3次赔付！新增、复发、转移、持续癌症均覆盖</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/4CfkcSAmZzUsFGZQ.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     我们的身体，除了头发和指甲，都有可能出现癌细胞。癌症的发病率及理赔率都居高不下，癌症理赔已经占据重疾理赔的70%以上。我们对于重疾的担忧，往往源于对癌症的担忧。如果从发生率和带来的损失率来看，癌症属于“高频高损”的风险，发生概率高，带来损失大。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-28</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4448ac4f6eb864fa5c9cac.htm" alt="孩子好上学，财产更安全，就买这本15万美金的护照-理享家" title="孩子好上学，财产更安全，就买这本15万美金的护照">
+             
+             <div class="title">孩子好上学，财产更安全，就买这本15万美金的护照</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/9dJDjvtt1eY4Q34q.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     想让孩子上国际学校，免考进清华吗？想要财产更加安全，合理躲避CRS和不该交的税吗？想要说走就走，一本护照全球免签吗？
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-28</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4448384f6eb864fa5c9cab.htm" alt="这5个教育毒瘤，正在把无数孩子变成庸人！-理享家" title="这5个教育毒瘤，正在把无数孩子变成庸人！">
+             
+             <div class="title">这5个教育毒瘤，正在把无数孩子变成庸人！</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/GBtTGlh3IjU7Qead.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     到今天，我已教了四十多年的书了。我十八年在松江二中，二十二年在复旦附中，可以说，我是教了一辈子的书。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-28 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4310b14f6eb864fa5c9ca9.htm" alt="身为中产，一辈子得交多少税？-理享家" title="身为中产，一辈子得交多少税？">
+             
+             <div class="title">身为中产，一辈子得交多少税？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/8568y3Ko61J9Jh86.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     天降伟人特朗普，最近在太平洋那头，又搞了个轰动全球的大新闻：全面减税。  这可不得了。就像沸油锅里蹿进了几滴凉水，我国的舆论顿时炸开了，羡慕与嫉妒齐飞，责骂共埋怨一色。网络分析与声讨不绝如缕，好不热闹。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-27</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4311584f6eb864fa5c9caa.htm" alt="香港保险理赔 | “你要知道的就是这10条！”-理享家" title="香港保险理赔 | “你要知道的就是这10条！”">
+             
+             <div class="title">香港保险理赔 | “你要知道的就是这10条！”</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/eGxkn3XE43vdIcaR.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     2017年即将结束，香港保险的热潮此起彼伏，其中也夹杂着种种质疑的声音，特别是关于香港保险的理赔问题，尤其受到大陆人士的关注。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-27 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4310324f6eb864fa5c9ca8.htm" alt="理财鄙视链，你在哪一级？-理享家" title="理财鄙视链，你在哪一级？">
+             
+             <div class="title">理财鄙视链，你在哪一级？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/hts5jq1O9J3lffUq.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     不知道从何时起，中产们爱上了“鄙视链”这个东西。它摸不透，看不到，但是却真实存在，围绕在日常的生活中，且不说房子车子，就连喝一杯咖啡是喝的全家湃客还是星巴克，也会有人拿来battle一下。
+                  </div>
+                  <div class="bottomTime">
+                     <span> 2017-12-27</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a430f844f6eb864fa5c9ca7.htm" alt="遇到给下属当“下属”的领导，你就偷着乐吧-理享家" title="遇到给下属当“下属”的领导，你就偷着乐吧">
+             
+             <div class="title">遇到给下属当“下属”的领导，你就偷着乐吧</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/HJs8IH87xI6INlhg.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     全球市场正变得日益复杂，没有人能做到无所不能，因此，谷歌负责人事运营的高级副总裁Lazlo Bock才会说，谦卑是他考察新员工的指标之一。他解释说：“你的最终目标是大家如何通力合作解决问题。我已经做了自己该做的，就该退后。”Bock说，谦卑不只是给别人创造发光的机会，也是“对自己知识的谦卑。没有了这种谦卑，就无法进步。”
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-27</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a430f1e4f6eb864fa5c9ca6.htm" alt="工作与生活平衡，这其实是个伪命题-理享家" title="工作与生活平衡，这其实是个伪命题">
+             
+             <div class="title">工作与生活平衡，这其实是个伪命题</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/TUXznli0D3rt3mYt.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     操劳过度、心烦意乱、压力太大、精力分散……如今我们中有不少人用这些词来形容自己。我听到世界各地的男人、女人、老人、小孩、都做过类似的抱怨。在一个信息爆炸和经济压力无处不在的时代，每个人都想努力拥有一份有意义的工作、一个幸福家庭以及令人满意的内心生活。
+                  </div>
+                  <div class="bottomTime">
+                     <span> 2017-12-27 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a430e9c4f6eb864fa5c9ca5.htm" alt="2017年度词汇：老了-理享家" title="2017年度词汇：老了">
+             
+             <div class="title">2017年度词汇：老了</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/htTnE0sYRRyykJ5F.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     如果用一个词来总结2017年，你想到的是什么？  我想到的是：老了。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-27</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a430e244f6eb864fa5c9ca4.htm" alt="看完这些数据，你就知道中国人为什么要买下泰国了-理享家" title="看完这些数据，你就知道中国人为什么要买下泰国了">
+             
+             <div class="title">看完这些数据，你就知道中国人为什么要买下泰国了</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/XY2n6muKv61iYk88.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     大家都说，2017年，中国人正在买下泰国，根据泰国地产管理局的数据，中国人已经成为泰国地产最大的海外买主。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-27 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a430bcd4f6eb864fa5c9ca3.htm" alt="负债累累的不止贾跃亭，还有14亿中国人-理享家" title="负债累累的不止贾跃亭，还有14亿中国人">
+             
+             <div class="title">负债累累的不止贾跃亭，还有14亿中国人</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/k9x08CUtnm4g8eQ1.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     圣诞节晚上，当贾跃亭和老婆甘薇正在美国工厂共度佳节的时候，大洋彼岸的北京证监局发出了通告——责令他在12月31日之前回国，承担相应的责任。
+                  </div>
+                  <div class="bottomTime">
+                     <span> 2017-12-27</span> |
+                     <span class="hover">
+                        理享家财富
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a43091c4f6eb864fa5c9ca1.htm" alt="美国移民虽无新规，特朗普政府却悄悄“踩刹车”-理享家" title="美国移民虽无新规，特朗普政府却悄悄“踩刹车”">
+             
+             <div class="title">美国移民虽无新规，特朗普政府却悄悄“踩刹车”</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/Hf73IEXj744FbsiI.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     据美国《世界日报》报道，美国尽管没有筑起实体高墙，也没有颁布移民新规，但各种迹象显示，特朗普政府对于合法移民，正在悄悄地踩煞车，不仅科学研究人士签证受阻，被卡在国外无法入境、申请绿卡者也被要求再次面试。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-27</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4308ae4f6eb864fa5c9ca0.htm" alt="单次赔偿还是多次赔偿，年轻人如何选择香港重疾？-理享家" title="单次赔偿还是多次赔偿，年轻人如何选择香港重疾？">
+             
+             <div class="title">单次赔偿还是多次赔偿，年轻人如何选择香港重疾？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/GqBkwQqeWIw37HuE.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     那么，作为买人生第一份重疾保险的年轻人可以怎么选择呢？  单次赔偿还是多次赔偿，如何抉择？
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-27</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a41a9804f6eb864fa5c9c9e.htm" alt="想与奥运长相厮守的品牌，都得拥有这样的气质 ​-理享家" title="想与奥运长相厮守的品牌，都得拥有这样的气质 ​">
+             
+             <div class="title">想与奥运长相厮守的品牌，都得拥有这样的气质 ​</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/Zocd69SX0Y2x1OMk.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     如今奥运IP着实炙手可热，大大小小的品牌商们都绝对不会轻易错过与奥运擦出火花的机会。但是你可能不知道的是，如果从1896年首届现代奥运会算起，奥运会至今已有121年的历史，可是品牌纷纷心甘情愿与奥运牵手的时间却只有短短的33年。
+                  </div>
+                  <div class="bottomTime">
+                     <span> 2017-12-26 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a41a93b4f6eb864fa5c9c9d.htm" alt="遇到给下属当“下属”的领导，你就偷着乐吧-理享家" title="遇到给下属当“下属”的领导，你就偷着乐吧">
+             
+             <div class="title">遇到给下属当“下属”的领导，你就偷着乐吧</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/abMypI4cPey5lZDO.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     全球市场正变得日益复杂，没有人能做到无所不能，因此，谷歌负责人事运营的高级副总裁Lazlo Bock才会说，谦卑是他考察新员工的指标之一。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-26 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a41a8da4f6eb864fa5c9c9c.htm" alt="脱罪、反转与抹黑：细数江歌案中的事实和谎言-理享家" title="脱罪、反转与抹黑：细数江歌案中的事实和谎言">
+             
+             <div class="title">脱罪、反转与抹黑：细数江歌案中的事实和谎言</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/0uexH7txVcOHBedH.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     2017年12月20日，日本东京，江歌案一审宣判，陈世峰犯恐吓罪、故意杀人罪，判处有期徒刑20年。  这样的判决让江歌妈妈难以接受，但其实，这已经是检察官能争取到的最好结果了。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-26</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a41a8474f6eb864fa5c9c9b.htm" alt="2017年度最扎心：月薪3千，拿命换钱！-理享家" title="2017年度最扎心：月薪3千，拿命换钱！">
+             
+             <div class="title">2017年度最扎心：月薪3千，拿命换钱！</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/oSctUVSGBlElFcj8.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     如果你是上班族，那你不是在上班，就是在上下班的路上。   北京大学社会调查研究中心调查显示，中国上班族平均每天工作8.66小时。其中，广州的上班族是最忙的，日均工作时间为9.02小时。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-26</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a41a7684f6eb864fa5c9c9a.htm" alt="大额保单里的奥妙，富人不想你知道。-理享家" title="大额保单里的奥妙，富人不想你知道。">
+             
+             <div class="title">大额保单里的奥妙，富人不想你知道。</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/rxhrEBTBlVWbrtUl.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     编者按：香港保险市场频现内地客户的千万巨额保单，这也让内地XX感到不安，陆续出台了多条“限制令”，试图给香港保单“降降温”。但是资本的流动是自由的，如果不能逐本溯源，了解赴港购买大额保单的原因，就很难理解其中原由。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-26</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a41a7014f6eb864fa5c9c99.htm" alt="「储蓄对比」盛世传家宝vs 充裕未来，孰强孰弱，一目了然-理享家" title="「储蓄对比」盛世传家宝vs 充裕未来，孰强孰弱，一目了然">
+             
+             <div class="title">「储蓄对比」盛世传家宝vs 充裕未来，孰强孰弱，一目了然</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/zAbsfMUiA9eZMjG3.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                      编者按：富通盛世传家宝作为今年横扫同类产品的惊世巨作，在产品收益上有着独一无二的优势。最高可达6.89%的收益率更是同类产品的巅峰。下面将会在从产品收益率的角度以实例对比友X充裕未来和富通盛世传家宝。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-11-26</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a41a6a04f6eb864fa5c9c98.htm" alt="最高年复利6.83%跑满128年，无限变更被保人-理享家" title="最高年复利6.83%跑满128年，无限变更被保人">
+             
+             <div class="title">最高年复利6.83%跑满128年，无限变更被保人</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/VlOrPhBWVhJN9yhS.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     编者按：富通盛世传家宝是一款无固定领取的储蓄险，它的特征和其他储蓄险类似，长期投资收益稳定，美元保单规避通胀，同时该保单还有其他储蓄险所不能。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-11-26</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a41a6334f6eb864fa5c9c97.htm" alt="曾犯错公司只剩一人，今管理1500亿财富，秘诀竟是“超级现实”！-理享家" title="曾犯错公司只剩一人，今管理1500亿财富，秘诀竟是“超级现实”！">
+             
+             <div class="title">曾犯错公司只剩一人，今管理1500亿财富，秘诀竟是“超级现实”！</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/fRYdczfckIWPNDlv.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     一个人的崇高价值如何体现？财富、社会地位、贡献还是对他人甚至全球的影响力？  爱因斯坦想用思想改变世界，乔布斯想用科技改变世界，达利欧却想用自己的生活和工作原则改变世界。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-26</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a41a5ab4f6eb864fa5c9c96.htm" alt="妻子将瘫痪在床的老公割喉杀害，被抓时大喊：治不起了，没钱了...-理享家" title="妻子将瘫痪在床的老公割喉杀害，被抓时大喊：治不起了，没钱了...">
+             
+             <div class="title">妻子将瘫痪在床的老公割喉杀害，被抓时大喊：治不起了，没钱了...</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/rB1dmKhdQ5HwvLhv.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                      广西南宁一家医院病房里，因脑溢血瘫痪在床的曾华被人持刀割破喉咙，而结束他生命的人正是他的结发30余年的妻子许芳，许芳被抓时曾崩溃大哭：治不起了，没有钱了，我不想拖累儿子...12月18号该案件在南宁中级人民法院开庭审理。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-26</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a41a5234f6eb864fa5c9c95.htm" alt="年届四十，如何用保险缓解中年危机 ？从中兴程序员跳楼说起-理享家" title="年届四十，如何用保险缓解中年危机 ？从中兴程序员跳楼说起">
+             
+             <div class="title">年届四十，如何用保险缓解中年危机 ？从中兴程序员跳楼说起</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/LWtKNRH2jup4g2AY.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     12月10日上午，中兴网信研发负责人欧某新从公司26楼一跃，结束了自己年仅42岁的生命。欧的妻子发帖称，此前中兴领导劝他先生离职。  
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-26</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a405b994f6eb864fa5c9c93.htm" alt="华仔伤后复出为海港城点灯又获博士学位，得益于高端医疗险环球紧急营救-理享家" title="华仔伤后复出为海港城点灯又获博士学位，得益于高端医疗险环球紧急营救">
+             
+             <div class="title">华仔伤后复出为海港城点灯又获博士学位，得益于高端医疗险环球紧急营救</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/9MrwpnK7E9MwZzrc.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     56岁刘德华今年年初在泰国郊区拍摄一场骑马场面时，马匹忽然发狂，华仔不慎堕马，马匹更踩到华仔腰脊，令他腰脊骨裂。华仔当时立刻去泰国一间医院治疗，因为腰脊受伤，行动不便，必须坐医疗专机回港，高端医疗保险的环球营救服务。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-25</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a405b034f6eb864fa5c9c92.htm" alt="特级隽X陪你过圣诞！-理享家" title="特级隽X陪你过圣诞！">
+             
+             <div class="title">特级隽X陪你过圣诞！</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/IRi7uh0Zl0w3m19j.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     简体字隽，泛指肥美之肉，美味。引申为意味深长，优秀出众之意。   陞简体字升，上也，提升的意思。可以用来表示财富增值。 香港
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-25</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a405a904f6eb864fa5c9c91.htm" alt="老板不喜欢你，除了辞职，真的别无他法了吗？-理享家" title="老板不喜欢你，除了辞职，真的别无他法了吗？">
+             
+             <div class="title">老板不喜欢你，除了辞职，真的别无他法了吗？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/MAY07ODVpm1N21zO.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     在你的职业生涯中，难免会遇到这样的时刻，总会有领导对你没有好印象，或者他习惯用错误的方式去解读你。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-25</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a405a454f6eb864fa5c9c90.htm" alt="为什么企业光有管理思维还不够，更要有哲学思维？-理享家" title="为什么企业光有管理思维还不够，更要有哲学思维？">
+             
+             <div class="title">为什么企业光有管理思维还不够，更要有哲学思维？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/Vah85adsLFvoZbKA.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     2014年5月，欧盟最高法院裁定，允许用户从搜索引擎结果页面中删除自己的名字或者相关历史事件，支持普通公民享有“被遗忘权”。为响应该法令，全球搜索引擎巨头谷歌公司特别成立了受理“被遗忘权”的7人顾问委员会，协助审核删除请求。除了董事长埃里克·施密特、首席法律顾问大卫·德拉蒙德（David Drummond）之外，有位特殊顾问赫然在列，他就是牛津大学信息哲学与伦理学教授卢奇亚诺·弗洛瑞迪（Luciano Floridi）。
+                  </div>
+                  <div class="bottomTime">
+                     <span> 2017-12-25 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a405a0b4f6eb864fa5c9c8f.htm" alt="创新型领导的十大特征，你占了几条？-理享家" title="创新型领导的十大特征，你占了几条？">
+             
+             <div class="title">创新型领导的十大特征，你占了几条？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/ksyBsjxvJbDfYaDx.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     许多企业都希望它们的领导人创造出更多的创新团队。但他们到底应该如何做呢？如果你询问那些具有高度创新性的领导们，是什么让他们如此高效，你很可能会听到，“好吧，我不知道。我根本就没考虑过。”或是他们会编造出一些听起来很是引人入胜的东西。但真实的情况是，精通于某事的人，往往并不擅长准确地指出他们的技巧到底源于何处。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-25</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a40590f4f6eb864fa5c9c8e.htm" alt="落子后半生，定局阶层：2018年，这是我写给家人的建议！-理享家" title="落子后半生，定局阶层：2018年，这是我写给家人的建议！">
+             
+             <div class="title">落子后半生，定局阶层：2018年，这是我写给家人的建议！</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/qOK837GuNSqJBLte.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     如果你带着过去十几年的成功经验问我，2018年该如何是好？  我会反问，君可知今夕是何年？
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-25</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4058924f6eb864fa5c9c8d.htm" alt="看台湾和日本教育，就知道我们的孩子是如何被教傻的！-理享家" title="看台湾和日本教育，就知道我们的孩子是如何被教傻的！">
+             
+             <div class="title">看台湾和日本教育，就知道我们的孩子是如何被教傻的！</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/zBmOmJtVKRG663jk.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     台湾《旺报》刊文，提及有个江苏女孩，参加台湾交换生计划。她在台湾呆过一段日子后，迎接台湾的室友来大陆，带着室友到处游玩。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-25 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a40580d4f6eb864fa5c9c8c.htm" alt="普通中国人想移民，有哪些办法？-理享家" title="普通中国人想移民，有哪些办法？">
+             
+             <div class="title">普通中国人想移民，有哪些办法？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/U1x9Mq4i4AzPTMYy.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     这里说的普通中国人，是至少达到年薪12万的中产，这个定义是有关部门定的，据说达到这个水平就是高收入人群，要多交税，但我们都知道，这点钱跟中产还差很远。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-25 </span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a40579f4f6eb864fa5c9c8b.htm" alt="圣诞赴港，最全游玩攻略-理享家" title="圣诞赴港，最全游玩攻略">
+             
+             <div class="title">圣诞赴港，最全游玩攻略</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/hiZ7Ve9dHOEb6nJB.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     后天就是圣诞节了，虽说今年的圣诞节是周一，好在平安夜在周日，香港圣诞的气氛也越来越浓。每年这几天赴港签单、欢度圣诞的游客也是越来越多了。相较漫无目的闲逛，这份香港圣诞攻略一定要收好~
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-25</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a4057014f6eb864fa5c9c8a.htm" alt="美国人如何处理财富传承的问题？-理享家" title="美国人如何处理财富传承的问题？">
+             
+             <div class="title">美国人如何处理财富传承的问题？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/2YeLhYDNYSNT8rdh.webp" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     中国有句老话“富不过三代”，这似乎是人的本性。首代创业者兢兢业业、吃苦耐劳，创下偌大家业；二代人目睹父辈创业的艰辛，受到父辈的教育影响，也能够守住家业甚至有所发展；而到了第三代，他们从小沉溺于财富，只懂享受，家族基业自然要走下坡路。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-25</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a3c61474f6eb864fa5c9c89.htm" alt="我见很多赚大钱的人，没一个是靠努力成功的！-理享家" title="我见很多赚大钱的人，没一个是靠努力成功的！">
+             
+             <div class="title">我见很多赚大钱的人，没一个是靠努力成功的！</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/06T4sCyA1TQ2uyx3.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     前两天公司里同部门最年轻漂亮的小妹妹告诉我，她妈妈的一个朋友的侄子，来深圳奋斗八年后买了一套面积300平的别墅。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-22</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a3c60ce4f6eb864fa5c9c88.htm" alt="赚大钱的人，很少有靠努力成功的-理享家" title="赚大钱的人，很少有靠努力成功的">
+             
+             <div class="title">赚大钱的人，很少有靠努力成功的</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/20Xf5QOvJU9hO1cm.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     临近年关，许多人会被叫去参加同学聚会。  觥筹交错间，几句客套和寒暄听来，似乎认识的每个人都过得不错：
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-22</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a3c607f4f6eb864fa5c9c87.htm" alt="为什么说买比特币很难赚钱？-理享家" title="为什么说买比特币很难赚钱？">
+             
+             <div class="title">为什么说买比特币很难赚钱？</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/yVAK3vu0XA87bjSU.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     过去几个月最火的一类资产叫比特币，仅仅在今年比特币涨幅 20 倍，而过去 8 年比特币的涨幅超过了 2200 万倍。越来越多质疑比特币泡沫的人被打脸，但更多的人以一种旁观者眼光，等待着比特币泡沫最终破灭。如同每一次大泡沫的来临一样，人们总是会看到一轮疯狂的造富运动。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-22</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+         <li>
+             
+             <a href="news/detail/5a3c60284f6eb864fa5c9c86.htm" alt="明年的钱该怎么花，中央经济会议帮你确定了方向-理享家" title="明年的钱该怎么花，中央经济会议帮你确定了方向">
+             
+             <div class="title">明年的钱该怎么花，中央经济会议帮你确定了方向</div>
+               <div class="cont clearfix">
+               <div class="leftImg">
+                  <img src="api.careerdream.org/storage/v1/documents/2VqwFcEWgddTWBk4.jpg" >
+               </div>
+               <div class="rightFont">
+                  <div class="topDescription">
+                     中国的会议通稿和官方文件有一个通病，就是对大多数人而言，每个字都认识，每个词的意思也都知道，但放在一起就是不知道它要说什么。
+                  </div>
+                  <div class="bottomTime">
+                     <span>2017-12-22</span> |
+                     <span class="hover">
+                        理享家
+                        <div class="qrcode">
+                           <img alt="二维码" src= >
+                        </div>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </li>
+         
+      </ul>
+      <div class="rightBar">
+         
+<link rel='stylesheet' href='static/css/frontend/newsRightBar.css' />
+
+
+<ul class="newsRightBar clearfix">
+   <li class="title">热门内容</li>
+   <li><a href="http://www.1meeting.cn/mobile/customactive/&id=5880" target="_blank"><img src="static/img/vedio/1.png" alt="理享家"></a></li>
+   <li><a href="c.m.163.com/news/l/119302.html" target="_blank"><img src="static/img/vedio/2.png" alt="理享家"></a></li>
+   
+   <li class="clearfix">
+      
+      <a href="news/detail/5a4ca8a84f6eb80e0a3dbcaa.htm">
+      
+      <div class="hotImg">
+         <img src="api.careerdream.org/storage/v1/documents/68LHMYmJLeyk03vz.jpg" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">友邦最新重疾——加裕智倍保全解读</div>
+         <div class="hotTime">2018-01-03 </div>
+      </div>
+      </a>
+   </li>
+
+   
+   <li class="clearfix">
+      
+      <a href="news/detail/5a378e6f4f6eb864fa5c9c5d.htm">
+      
+      <div class="hotImg">
+         <img src="api.careerdream.org/storage/v1/documents/alRompl0fmUxoKBE.jpg" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">活动预告│家庭资产传承与财富保全</div>
+         <div class="hotTime">2017-12-18</div>
+      </div>
+      </a>
+   </li>
+
+   
+   <li class="clearfix">
+      
+      <a href="news/detail/5a2e4bd34f6eb864fa5c9c26.htm">
+      
+      <div class="hotImg">
+         <img src="api.careerdream.org/storage/v1/documents/RfSHRKKTPkKDCirR.png" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">活动预告│储蓄分红产品详细对比及方案推荐</div>
+         <div class="hotTime">2017-12-11</div>
+      </div>
+      </a>
+   </li>
+
+   
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div id="page">
+          <div id="pageNumber"></div>
+          <div id="searchPage">
+              <input type="text" />
+              <button>跳转</button>
+          </div>
+      </div>
+   </div>
+
+
+       <!-- 悬浮手机 -->
+  <div class="fix-phone consult"></div>
+
+  <div class="footer">
+    <div class="foo-content clear">
+      <div class="inner">
+        <ul>
+          <li class="title">理享家</li>
+          <li><a href="www.lxjcfbx.com/about.htm">关于理享家</a></li>
+          <li><a href="about_2.htm">常见问题</a></li>
+          <li><a href="about_3.htm">法律声明</a></li>
+        </ul>
+        <ul>
+          <li class="title">联系我们</li>
+          <li>电话：010-57262841</li>
+          <li>服务时间：9:00-18:00</li>
+        </ul>
+        <div class="right">
+          <div class="code"><img src="static/img/frontend/public/code.jpg" alt="二维码-理享家" /></div>
+          <p>扫码二维码</p>
+          <p>咨询海外资产咨询顾问</p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">版权所有 Copyright©2017 理享家 Asset Pro Co.Limited. All rights reserved</div>
+  </div>
+  <script>
+      (function(){
+          var bp = document.createElement('script');
+          var curProtocol = window.location.protocol.split(':')[0];
+          if (curProtocol === 'https'){
+              bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+          }
+          else{
+              bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+          }
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(bp, s);
+      })();
+  </script> 
+</div>
+<script src="static/js/frontend/form.js"></script>
+
+<script>
+   $(document).ready(function() {
+      $(".nav").find("li").eq(4).addClass("nav-select");
+   });
+   //分页代码--包含插件jpages
+   $(document).ready(function() {
+        $("#pageNumber").jPages({
+            containerID:"jPages",
+            previous:"上一页",
+            next:"下一页",
+            perPage:10,
+            delay:0
+        });
+        //跳转功能
+        var jump_btn = $("#searchPage").find("button");//跳转按钮
+        var lastPage = $("#pageNumber").find(".jp-next").prev().text();//最大页数值
+        lastPage = parseInt(lastPage);
+        var a = $("#pageNumber").find("a");//所有的分页按键
+        jump_btn.on("click",function() {
+            var that = this;
+            $(that).attr("disabled","true");
+            var val = $("#searchPage").find("input").val();
+            if(val=="") {
+                alert("请输入页数！");
+                $(that).removeAttr("disabled");
+                return false;
+            }else if(isNaN(val)) {
+                alert("请输入数字！");
+                $(that).removeAttr("disabled");
+                $("#searchPage").find("input").val("");
+                return false;
+            }else if( !(val>=1 && val<=lastPage) ) {
+                alert("请输入合理范围内的页数！");
+                $(that).removeAttr("disabled");
+                $("#searchPage").find("input").val("");
+                return false;
+            }else {
+                a.eq(val).click();
+                $(that).removeAttr("disabled");
+                $("#searchPage").find("input").val("");
+            }
+
+        });//跳转代码结束
+   });//分页代码结束
+</script>
+
+</body>
+</html>

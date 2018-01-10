@@ -1,0 +1,98 @@
+/*新闻资讯*/
+.news_content li:hover p.top {
+    color: #E1A70B;
+    text-decoration: underline;
+    text-decoration-color: #E1A70B;
+}
+
+.news_more:hover {
+    background-color: #E1A70B;
+}
+
+.news_more:hover a {
+    color: #ffffff;
+}
+
+/*右面悬浮按键*/
+ul.slide .code:hover .code_img {
+    display: block;
+}
+
+/*页面滚动时字体动画样式*/
+.platform_headline h1 {
+    animation: animations_headline 2s ease-out;
+    -webkit-animation: animations_headline 2s ease-out;
+    -moz-animation: animations_headline 2s ease-out;
+}
+
+.platform_headline p {
+    animation: animations_p 2s ease-out;
+    -webkit-animation: animations_p 2s ease-out;
+    -moz-animation: animations_p 2s ease-out;
+}
+
+@-webkit-keyframes animations_headline {
+    0% {
+        -webkit-transform: translateX(-500px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes animations_p {
+    0% {
+        -webkit-transform: translateX(500px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes animations_headline {
+    0% {
+        -moz-transform: translateX(-500px);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes animations_p {
+    0% {
+        -moz-transform: translateX(500px);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes animations_headline {
+    0% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes animations_p {
+    0% {
+        transform: translateX(500px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

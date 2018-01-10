@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>平台介绍_海外资产配置服务平台-理享家</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="理享家">
+    <script src="static/js/public/jquery-3.1.1.min.js"></script>
+     
+    <meta name="keywords"
+          content="关于我们,海外资产配置,海外保险,全球移民,健康管理,高端房产,基金产品,香港保险,理享家,大钟寺中坤广场,城投大厦,贝塔斯曼亚洲投资基金,紫辉创投,国金证券,华尔街见闻,中国证券报"/>
+    <meta name="description"
+          content="理享家专注海外资产配置。在中国13个城市，为全国八百多家机构渠道、上万名独立理财师提供了全方位的海外资产配置服务，理享家至今已完成数十亿人民币交易额并获得由包括贝塔斯曼亚洲投资基金、长安宏人资本、紫辉创投和国金证券等国内外一线投资机构的注资与背书。"/>
+    <link rel='stylesheet' href='static/css/frontend/about.css'/>
+
+    <link rel="shortcut icon" href="static/img/frontend/public/icon.png"/>
+    <link rel="stylesheet" href="static/css/frontend/base.css"/>
+    <link rel="stylesheet" href="static/css/frontend/header.css"/>
+    <link rel="stylesheet" href="static/css/frontend/footer.css"/>
+    <link rel='stylesheet' href='static/css/frontend/form.css'/>
+    <script name="baidu-koubei-verification" src="ikoubei.baidu.com/embed/8cd3a98723f1342aaa88d882864aa33e.JS"></script>
+    <style>
+        .content {
+            position: relative;
+        }
+
+        .link {
+            width: 1200px;
+            margin: 0 auto;
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: normal;
+            position: absolute;
+            top:20px;
+            left:50px;
+            visibility:hidden;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div id="baseForm">
+    <div class="form form1">
+    <div class="mask"></div>
+   <form class="formBox" id="form" method="post">
+      <div class="formTitle">
+         <img src="static/img/frontend/form/formTop.png" />
+      </div>
+      <ul class="formCont">
+         <li>
+            <span>如何称呼您<i>*</i></span>
+            <input type="text" name="name" id="input_name">
+         </li>
+         <li>
+            <span>性别<i>*</i></span>
+            <span class="mr"><input type="radio" name="sex" checked value="男" /> 男</span>
+            <span><input type="radio" name="sex" value="女"> 女</span>
+         </li>
+         <li>
+            <span>联系电话<i>*</i></span>
+            <input type="phone" name="phone" id="input_phone">
+         </li>
+         <!--<li>-->
+            <!--<span>电子邮箱<i>*</i></span>-->
+            <!--<input type="email" name="email" required>-->
+         <!--</li>-->
+         <li>
+            <span>您的微信</span>
+            <input type="text" name="wechat" id="input_wechat">
+         </li>
+         <li class="tips">
+            <b>!</b>我们会在第二个工作日9:00-18:00与您联系
+         </li>
+         <li class="btn">
+            <span class="form1Cancel" id="formCancel">取消</span>
+            <button type="submit" class="form1Submit">提交</button>
+         </li>
+      </ul>
+   </form>
+</div>
+
+
+
+</div>
+<div id="baseForm1">
+    <div class="form form2">
+    <div class="mask"></div>
+   <form class="formBox" id="form1" method="post">
+      <div class="formTitle">
+         <img src="static/img/frontend/form/formTop.png" alt="">
+      </div>
+      <ul class="formCont">
+         <h3>被保人信息</h3>
+          <li>
+              <span>保险公司</span>
+              <input type="text" value="" name="company" disabled>
+          </li>
+          <li>
+              <span>保险产品</span>
+              <input type="text" value="" name="product" disabled>
+          </li>
+          <li style="margin: 19px 73px;">
+              <span>认购货币</span>
+              
+          </li>
+          <li>
+              <span>缴费年限</span>
+              <select name="moneyYear">
+                  
+              </select>
+          </li>
+          <li>
+              <span style="padding-top: 13px;float: left;">年缴保费<br><b style="font-weight: normal;">(单位：万)</b></span>
+              <input type="text" name="money" style="margin-left: 4px;">
+          </li>
+          <li>
+              <span>姓名</span>
+              <input type="text" name="insuredName">
+          </li>
+          <li>
+            <span>性别</span>
+            <span class="mr"><input type="radio" name="insuredGender" checked required value="男"> 男</span>
+            <span><input type="radio" name="insuredGender" value="女"> 女</span>
+         </li>
+          <li>
+            <span>吸烟</span>
+            <span class="mr"><input type="radio" name="smoke" checked required value="是"> 是</span>
+            <span><input type="radio" name="smoke" value="否"> 否</span>
+         </li>
+          <li>
+              <span>出生日期</span>
+              <input name="birthday" type="date" value="1994-05-20">
+          </li>
+          <h3>您的信息</h3>
+         <li>
+            <span>如何称呼您<i>*</i></span>
+            <input type="text" name="insureName" required>
+         </li>
+         <li>
+            <span>您的邮箱<i>*</i></span>
+            <input type="email" name="insureEmail" required>
+         </li>
+          <li>
+            <span>您的手机<i>*</i></span>
+            <input type="phone" name="insurePhone" required>
+         </li>
+         <li>
+            <span>您的微信</span>
+            <input type="text" name="insureWechat">
+         </li>
+         <li class="tips">
+            <b>!</b>我们会在第二个工作日9:00-18:00与您联系
+         </li>
+         <li>
+            <span class="form1Cancel" id="form1Cancel">取消</span>
+            <button type="submit" class="form1Submit">提交</button>
+         </li>
+      </ul>
+   </form>
+</div>
+
+
+
+</div>
+<div class="bg">
+     	<div class="header clear">
+		<div class="inner">
+			<div class="logo">
+				<a href="www_lxjcf_default.html"><img src="static/img/frontend/public/logo.png" alt="理享家" title="理享家"  /></a>
+			</div>
+			<p>值得信赖的海外资产配置服务平台</p>
+			<ul>
+				<li>
+					<i></i>010-57262841
+				</li>
+				<li class="consult">立即咨询</li>
+			</ul>
+		</div>
+	</div>
+	<div class="nav clear">
+		<div class="inner">
+			<ul>
+				<li >
+					<a href="www_lxjcf_default.html" >首页</a>
+				</li>
+				<li >
+					<a href="www.lxjcfbx.com/product.htm">海外保险</a>
+				</li>
+				<li >
+					<a href="www.lxjcfbx.com/invest.htm">投资移民</a>
+				</li>
+				<li >
+					<a href="fund.htm">海外基金</a>
+				</li>
+				<li >
+					<a href="news.htm">新闻资讯</a>
+				</li>
+				<li >
+					<a href="www.lxjcfbx.com/about.htm">平台介绍</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+ 
+    
+    <div class="content">
+        <div class="link">
+            <a href="www_lxjcf_default.html"><span>理享家---></span></a>
+            <a href="www.lxjcfbx.com/about.htm"><span>平台介绍</span></a>
+        </div>
+        <div class="inner">
+            <ul class="leftBar">
+                <li class="selected">关于我们</li>
+                <li>联系我们</li>
+                <li>常见问题</li>
+            </ul>
+            <div class="rightContent">
+
+                <div class="about detailed visible">
+                    <div class="title">关于我们</div>
+                    <div class="article">
+                        <h4>公司简介</h4>
+                        <div class="express">
+                            <p>
+                                理享家专注于为客户提供一站式海外资产配置服务，核心团队聚集了数十位国内财富行业高级私人银行家。已在中国21个城市，为全国近千家机构、4,000逾名独立理财师、30,000个高净值家庭提供了全方位的海外资产配置服务，目前全国月销售规模已达4亿人民币，预计2017年平台总销量将达到30亿人民币。</p>
+                            <br/>
+                            <p>理享家由贝塔斯曼亚洲投资基金、Infinity Venture
+                                Partners、长安私人资本、华尔街见闻、紫辉创投、国金证券和涌铧投资等在内的一线投资机构投资与背书，并多次被中央电视台、华尔街见闻、中国证券报等国内外权威财经媒体深度报道。</p>
+                        </div>
+                        <h4>产品与服务</h4>
+                        <div class="express">
+                            <p>理享家海外资产平台产品体系分为六大板块：海外保险及家族信托、全球移民、高端医疗、全球房产、海外基金及债券、下一代留学及就业服务。</p>
+                            <br/>
+                            <p>
+                                理享家海外资产配置平台提供的服务种类包括：产品培训及销售咨询服务，销售体系搭建建议，人才支持，互联网营销支持，抵港签单安排，保单后续续保及理赔等一系列专业海外资产配置周边服务。</p>
+                        </div>
+                        <h4>专业团队</h4>
+                        <div class="express">
+                            <p>
+                                理享家团队成员拥有广泛的金融行业人脉、丰富的金融资产管理经验和独立的互联网技术开发能力。核心团队由资深华尔街投行人士与国内资产管理行业专家组成，熟悉海外资本市场，有能力对上游产品及下游渠道实行严格的风控甄选及精准获取，并凭借对行业动态的专业掌控及解读，充分发挥平台的专业价值，维持平台合作者的长久黏性。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact detailed">
+                    <div class="title">理享家城市分布</div>
+                    <div class="article">
+                        <h3>联系邮箱：</h3>
+                        <ul class="address1">
+                            <li><i></i>商务合作：wx@careerdream.org</li>
+                            <li><i></i>加入我们：2017@careerdream.org</li>
+                        </ul>
+                        <h3>办公地址：</h3>
+                        <ul class="address">
+                            <li><i></i>北京：北京市东城区东长安街1号东方广场W3座810-811</li>
+                            <li><i></i>香港：香港特别行政区油尖旺区海港城海洋中心</li>
+                            <li><i></i>武汉：湖北省武汉市武昌区中北路汉街国际B座</li>
+                            <li><i></i>上海：上海市静安区铜仁路299号SOHO东海广场</li>
+                            <li><i></i>杭州：杭州市江干区钱江国际时代广场</li>
+                            <li><i></i>成都：成都市锦江区银石广场</li>
+                            <li><i></i>南京：南京市汉中路169号金丝利国际大厦</li>
+                            <li><i></i>青岛：青岛市南山区华润大厦</li>
+                            <li><i></i>郑州：郑州市国际金融中心IFC</li>
+                            <li><i></i>西安：西安市高新区唐延南路I都会4号楼1315室</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="question detailed">
+                    <div class="title">常见问题</div>
+                    <div class="article">
+                        <h4>Q:香港保险相比内地保险有哪些优势？</h4>
+                        <div class="express">
+                            <p>
+                                A:不可否认，内地生活水平越来越高，大家的保险意也稳步上升。众多中产家庭在慎重考虑为自己和家人买足保险。在这种大趋势下，港险以价格优惠、保障范围广的特点异军突起。那么、港险究竟为什么如此追捧呢？
+                            </p>
+                            <ol>
+                                <li>保费低</li>
+                                <li>保障范围广</li>
+                                <li>收益高</li>
+                                <li>保额高</li>
+                                <li>理赔更容易</li>
+                                <li>投保流程简单、审核宽松、基本免体检</li>
+                                <li>资产转移</li>
+                            </ol>
+                        </div>
+                        <h4>Q:中国内地客人在香港投保合法么？有没有香港的法律可供参考？</h4>
+                        <div class="express">
+                            <p>
+                                A：香港的保险是对全世界开放的，全世界的保险公司都可以申请到香港来经营，全世界的人都可以到香港来买保险。香港是全世界知名的自由经济体，有相对完善的法治体系，且执行有效。所以，只要在香港合法签订的保单，不管投保人是何种国籍，一律受香港保险监理处监管，也受香港法律的保护。内地居民（大陆居民）与香港本地人在香港签定的合法保单，权益是完全相同的。根据香港法例第
+                                41 章保险公司条例，“任何在香港获授权之保险公司，在香港推介人寿保险均属合法，不论销售对象是香港本地人士，外国人士或中国内地人士”（摘自保险业监理处复函档案号
+                                INS/ADM/7/1) 。客人可以在香港律政司双语法例资料系统中查询 41
+                                章香港保险公司条例，网站地址为：http://www.legislation.gov.hk/chi/home.html
+                            </p>
+                        </div>
+                        <h4>Q:为什么内地客人一定要来香港办理投保手续？</h4>
+                        <div class="express">
+                            <p>
+                                A：香港保险代理人所授权的业务经营范围是在香港本地，因此办理投保手续时，必须在香港本地进行。这也就是要求非香港居民投保时，必须亲自来香港办理相关手续。父母为儿女办理投保手续，18
+                                岁以下孩子可以不来港。现在香港的保险公司对非香港居民投保，通常采取“来港见证制度”，包括见证投保人本人，留存有关入境记录等具体措施。
+                            </p>
+                        </div>
+                        <h4>Q:投保香港保险步骤是什么？</h4>
+                        <div class="express">
+                            <p>
+                                A：1、投保人带齐证件前往经纪行或保险公司签署文件（重要材料：身份证，通行证，地址证明。如给孩子买，需要户口本、出生证或在学证明）。2、在保险公司验证缴费。3、在保险公司附近银行开户(方便续期缴费及理赔)。
+                            </p>
+                        </div>
+                        <h4>Q:香港保单生效后，投保人可以上网查阅自己的投保资料么？</h4>
+                        <div class="express">
+                            <p>
+                                A：可以。只要到公司指定的网站，输入客人号码和密码，就可上网查阅保单资料，甚至可以做电话、通信地址的网上变更。如果购买香港投连险，还可在网上变更投资组合。
+                            </p>
+                        </div>
+                        <h4>Q:买香港保险需要体检么？</h4>
+                        <div class="express">
+                            <p>
+                                A:是否体检通常取决于投保人投保额度，年龄和身体状况等因素。如需要体检，由保险公司安排在香港的诊所查体，费用由保险公司负责。
+                            </p>
+                        </div>
+                        <h4>Q:香港保险如何理赔？</h4>
+                        <div class="express">
+                            <p>
+                                A:针对疾病的发生，需要将诊断书原件以及一些辅助治疗材料（如拍片资料）邮寄到保险公司，理赔之后，会在诊断书上盖戳。针对死亡，需要将公安机关开具的死亡证明原件邮寄到保险公司。<br/>
+                                针对理赔的付款：友邦的方式可以直接打到国内银行卡；保诚的方式会专门寄一张支票过来，到保诚指定的银行可以直接兑现。要注意，如果是美元保单，理赔的是美元支票，需要自己前往银行问清楚，有些银行可以直接用支票取美元，有些银行会直接换算成人民币取出
+                            </p>
+                        </div>
+                        <h4>Q:理赔款项如何带回内地？是否受到外汇管制的限制？</h4>
+                        <div class="express">
+                            <p>
+                                A：保险公司会把保险金的港币支票寄到客户的通信地址。因为支票抬头是客户的名字，所以客户可以持身份证在有香港分行的内地银行兑现，不受外汇管制的限制。
+                            </p>
+                        </div>
+                        <h4>Q:香港的保险公司允许破产倒闭么？如果合作方保险公司破产怎么办？客人的利益有何保护？</h4>
+                        <div class="express">
+                            <p>
+                                A：首先，保险行业是整个国民经济的最后一道安全网，保险公司破产倒闭必然在非常严重的经济危机之后。其次，香港及西方一些国家虽然没有明确在法律中表示保险公司不允许倒闭，但在实际操作中政府都对保险公司起到托底和保护作用。香港人寿保险公司，未曾有破产案例。<br/>
+                                对于人寿保险，香港政府对于香港保险业的监管非常严格，每出售一份保单，香港保险监理处都会要求香港保险公司把该份保单
+                                80%价值的资产维持在香港，以便更好的保障投保人的利益。如果在香港有人寿保险公司经营不善，濒临危机，香港政府即会出面，让有财政实力的保险公司兼并该保险公司，保障香港出售的人寿保单不受损失。所以客人最多只会因保险公司经营不善损失红利收益，但保单的现金价值肯定是优先予以保障的。香港政府正在设立香港人寿保险再保险基金，用以担保香港出售的每一份人寿保单
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+       <!-- 悬浮手机 -->
+  <div class="fix-phone consult"></div>
+
+  <div class="footer">
+    <div class="foo-content clear">
+      <div class="inner">
+        <ul>
+          <li class="title">理享家</li>
+          <li><a href="www.lxjcfbx.com/about.htm">关于理享家</a></li>
+          <li><a href="about_2.htm">常见问题</a></li>
+          <li><a href="about_3.htm">法律声明</a></li>
+        </ul>
+        <ul>
+          <li class="title">联系我们</li>
+          <li>电话：010-57262841</li>
+          <li>服务时间：9:00-18:00</li>
+        </ul>
+        <div class="right">
+          <div class="code"><img src="static/img/frontend/public/code.jpg" alt="二维码-理享家" /></div>
+          <p>扫码二维码</p>
+          <p>咨询海外资产咨询顾问</p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">版权所有 Copyright©2017 理享家 Asset Pro Co.Limited. All rights reserved</div>
+  </div>
+  <script>
+      (function(){
+          var bp = document.createElement('script');
+          var curProtocol = window.location.protocol.split(':')[0];
+          if (curProtocol === 'https'){
+              bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+          }
+          else{
+              bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+          }
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(bp, s);
+      })();
+  </script> 
+</div>
+<script src="static/js/frontend/form.js"></script>
+
+    <script src="static/js/frontend/about.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".nav").find("li").eq(5).addClass("nav-select");
+        });
+    </script>
+
+</body>
+</html>

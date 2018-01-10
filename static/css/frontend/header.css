@@ -1,0 +1,112 @@
+/*公共类*/
+.inner{
+  width:1200px;
+  height:100%;
+  margin:0 auto;
+}
+h2{
+  font-size:26px;
+  margin:0 auto;
+  padding:48px 0 60px 0;
+  color:#333;
+  text-align:center;
+  font-weight:bolder;
+}
+.clear::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.consult{
+  cursor:pointer;
+}
+
+/*header--头部*/
+.header{
+  width:100%;
+  height:60px;
+  background-color:#fff;
+}
+.header .logo{
+  width:99px;
+  margin-top:14px;
+  height:auto;
+  float:left;
+  cursor:pointer;
+}
+.header .logo img{
+  width:99px;
+  height:33px;
+}
+.header p{
+  color:#002369;
+  font-size:18px;
+  float:left;
+  margin-left:47px;
+  line-height:60px;
+  font-family:"幼圆";
+}
+.header ul{
+  float:right;
+  margin-top:15px;
+}
+.header li{
+  height:28px;
+  font-size:14px;
+  border:1px solid #222438;
+  border-radius:2px;
+  float:left;
+  line-height:28px;
+}
+.header li:first-child{
+  width:132px;
+  border-color:#002369;
+  margin-right:18px;
+  color:#222438;
+  position:relative;
+  padding-left:39px;
+}
+.header li:last-child{
+  color:#fff;
+  background-color:#222438;
+  width:88px;
+  text-align:center;
+}
+.header i{
+  display:inline-block;
+  width:18px;
+  height:18px;
+  background:url(../../img/frontend/public/phone.png) no-repeat;
+  position:absolute;
+  top:5px;
+  left:10px;
+}
+
+/*nav--导航*/
+.nav{
+  width:100%;
+  height:40px;
+  background-color:#222438;
+}
+.nav li{
+  float:left;
+  width:120px;
+  height:40px;
+  color:#fff;
+  font-size:14px;
+  line-height:40px;
+  text-align:center;
+  cursor:pointer;
+}
+.nav li:hover{
+  background-color:rgba(203,180,124,0.2);
+}
+.nav a{
+  display:block;
+  width:100%;
+  height:100%;
+  color:#fff;
+}
+.nav-select{
+  background-color:#cbb47c !important;
+}

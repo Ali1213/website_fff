@@ -1,0 +1,260 @@
+.form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 16px;
+}
+.form .formBox {
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  z-index: 100;
+  transform: translateX(-50%);
+  width: 660px;
+}
+.form .formBox .formTitle {
+  height: 150px;
+}
+.form .formBox .formTitle img {
+  height: 100%;
+  display: block;
+}
+.form .formBox .formCont {
+  padding: 30px 0;
+  width: 100%;
+  background: #eee;
+}
+.form .formBox .formCont h3 {
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 20px;
+  color: #187FC3;
+  line-height: 22px;
+  border-left: 3px solid #187FC3;
+  margin-left: 72px;
+  padding-left: 10px;
+}
+.form .formBox .formCont li {
+  margin: 8px 73px;
+  position:relative;
+  padding:10px 0 10px 95px;
+}
+.form .formBox .formCont li::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.form .formBox .formCont li span:first-child {
+  width: 90px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 5px;
+  color:#666;
+  position:absolute;
+  top:50%;
+  margin-top:-16px;
+  left:0;
+  line-height:36px;
+}
+#baseForm1 .form .formBox .formCont li {
+    width:419px;
+    height:50px;
+    margin:0 73px;
+}
+#baseForm1 .form .formBox .formCont li span:first-child {
+    margin-top:-23px;
+    line-height:36px;
+}
+.form .formBox .formCont li span:first-child b {
+  font-size: 12px;
+  color: #666;
+  position:absolute;
+  left:30px;
+  top:30px;
+}
+.form .formBox .formCont li:last-child {
+  margin-left: 113px;
+}
+.form .formBox .formCont li:last-child span {
+  margin-top: 10px;
+  position:relative;
+  top:-5px;
+}
+.form .formBox .formCont li span.mr {
+  margin-right: 75px;
+}
+.form .formBox .formCont select {
+  width: 400px;
+  height: 40px;
+}
+.form .formBox .formCont select option {
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+}
+.form .formBox .formCont input {
+  color: #333;
+  font-size: 16px;
+  width: 400px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  padding-left: 10px;
+  background-color:lightgrey;
+}
+.form .formBox .formCont input[type=radio] {
+  margin-right: 20px;
+}
+.form .formBox .formCont input[name=company] {
+
+  color: #187FC3;
+}
+.form .formBox .formCont input[name=product] {
+
+  color: #187FC3;
+}
+.form .formBox .formCont i {
+  color: #FA4141;
+}
+.form .formBox .formCont .tips {
+  font-size: 12px;
+  color: #999;
+  margin: 0 0 10px 174px !important;
+  padding-left:0;
+}
+.form .formBox .formCont .tips b {
+  margin-right: 5px;
+  font-size: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  border: 1px solid #666;
+  border-radius: 50%;
+  transform: scale(0.8);
+}
+.form .formBox .formCont .form1Cancel {
+  font-size: 16px;
+  color: #999;
+  cursor: pointer;
+}
+.form .formBox .formCont .form1Submit {
+  cursor: pointer;
+  margin-left: 30px;
+  display: inline-block;
+  width: 108px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #187FC3;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 2px;
+}
+.mask {
+  position: fixed;
+  z-index: 98;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(1, 1, 1, 0.4);
+}
+.inputGood_radio {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #999;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+}
+.inputGood_radio b {
+  width: 10px;
+  height: 10px;
+  display: block;
+  border-radius: 100%;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.inputGood_radio b.on {
+  background: #187fe3;
+  margin: 2px 1px 1px 2px;
+}
+.inputGood_checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000000;
+  position: relative;
+  display: inline-block;
+}
+.inputGood_checkbox b {
+  width: 10px;
+  height: 10px;
+  display: block;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.inputGood_checkbox b.on {
+  background: #187fc3;
+}
+.inputGood_select {
+  width: 412px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  border: 1px solid #e5e5e5;
+  display: inline-block;
+  background: #ffffff;
+}
+.inputGood_select h1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0;
+  margin: 0;
+  background-color:lightgrey;
+}
+.inputGood_select h1 b {
+  padding-left: 10px;
+  font-weight: normal;
+}
+.inputGood_select h1 i {
+  border: 5px solid #000000;
+  border-left-color: lightgrey;
+  border-right-color: lightgrey;
+  border-bottom: 0;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.inputGood_select dl {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 100%;
+  padding: 0;
+  margin: 0;
+  display: none;
+  background: #fff;
+  z-index: 10;
+}
+.inputGood_select dl dd {
+  height: 35px;
+  padding: 0 10px;
+  line-height: 35px;
+  cursor: pointer;
+  margin: 0;
+  width: 100%;
+}
+.inputGood_select dl dd:hover {
+  background: #187fc3;
+  color: #ffffff;
+  width: 95.2%;
+}
+#form1Cancel{
+    margin-top:10px !important;
+}

@@ -1,0 +1,183 @@
+/*公共类*/
+.clear::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.inner{
+  width:1200px;
+  margin:0 auto;
+}
+.consult{
+  cursor:pointer;
+}
+h2{
+  font-size:16px;
+  margin:0 auto;
+  padding:25px 0 10px 0;
+  color:#fff;
+  text-align:center;
+  font-weight:bolder;
+  margin-bottom:26px;
+  height:16px;
+}
+h2::after{
+  content:"";
+  display:block;
+  width:52px;
+  height:4px;
+  background-color:#fff;
+  position:relative;
+  left:50%;
+  margin-left:-26px;
+  top:10px;
+}
+.content ul{
+  width:1200px;
+  margin:0 auto;
+  padding:0 33px 21px 33px;
+}
+.content li{
+  width:521px;
+  height:372px;
+  margin:0 24px 18px 24px;
+  float:left;
+  transform-origin:center center;
+  transition:transform 0.5s ease;
+  position:relative;
+}
+.content .font-bg{
+  width:100%;
+  height:98px;
+  position:absolute;
+  bottom:0;
+  background-color:rgba(0,0,0,0.6);
+  padding-top:24px;
+  padding-left:36px;
+  opacity:1;
+}
+
+/*invest--页面内容部分--结构*/
+.invest{
+  width:100%;
+  margin:0 auto;  
+  position:relative;
+  overflow:hidden;
+  color:#fff;
+}
+
+/*投资移民部分*/
+.invest .country{
+  color:#fff;
+  font-size:18px;
+  font-weight:bolder;
+  height:25px;
+  line-height:25px;
+  padding-left:49px;
+  position:relative;
+}
+.invest .font-bg{
+  margin-bottom:0;
+}
+.invest i{
+  display:inline-block;
+  width:40px;
+  height:25px;
+  position:absolute;
+  left:0;
+}
+.invest .money{
+  color:#fff;
+  font-size:14px;
+  margin-top:20px;
+}
+.invest span{
+  padding-right:60px;
+}
+.invest li:hover{
+  transform:scaleX(1.04) scaleY(1.04);
+  transition:transform 0.5s ease;
+}
+.invest li a{
+  display:block;
+  width:100%;
+  height:100%;
+}
+.invest{
+  background:url(../../img/frontend/invest/bg.jpg) no-repeat;
+  background-size:cover;
+}
+
+/*海外保险部分*/
+.product{
+  background:url(../../img/frontend/product/bx-bg.jpg) no-repeat;
+  background-size:cover;
+}
+.product li a{
+  color:#fff;
+  display:block;
+  width:100%;
+  height:100%;
+}
+.product .p_title{
+  font-size:22px;
+  line-height:22px;
+  font-weight:bolder;
+}
+.product .p_express{
+  font-size:15px;
+  line-height:15px;
+  margin-top:18px;
+}
+.product .p_express span{
+  display:inline-block;
+  height:15px;
+  float:left;
+}
+.product i{
+  display:inline-block;
+  width:0;
+  height:15px;
+  margin:0 7px;
+  float:left;
+  border-left:1px solid #fff;
+}
+.product .click{
+  width:100%;
+  height:100%;
+  background-color:rgba(34,36,56,0.9);
+  position:absolute;
+  text-align:center;
+  opacity:0;
+}
+.product .click .c_title{
+  width:144px;
+  font-size:27px;
+  height:66px;
+  line-height:66px;
+  padding:0 18px;
+  position:relative;
+  left:50%;
+  margin-left:-90px;
+  margin-top:95px;
+  
+}
+.product .click .c_title::before,.product .click .c_title::after {
+  content:"";
+  display:block;
+  width:180px;
+  height:2px;
+  background-color:#fff;
+  margin-left:-18px;
+}
+.product .click .c_express{
+  margin-top:57px;
+  font-size:17px;
+  line-height:35px;
+}
+.product li:first-child .click .c_express{
+  margin-top:44px;
+}
+.product li:first-child .click .c_title{
+  margin-top:83px;
+}

@@ -1,0 +1,47 @@
+.con {
+  width: 1160px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+.con .leftCont {
+  float: left;
+  width: 650px;
+  overflow: hidden;
+}
+.con .leftCont .title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 12px;
+}
+.con .leftCont .time {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 18px;
+}
+.con .leftCont .banner {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.con .leftCont .banner img {
+  width: 100%;
+}
+.con .leftCont .cont {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+.con .leftCont .cont b {
+  display: block;
+  margin-bottom: 10px;
+}
+.con .leftCont .cont p {
+  text-indent: 2em;
+  margin-bottom: 20px;
+}
+.con .rightBar {
+  float: right;
+  margin-bottom: 50px;
+}

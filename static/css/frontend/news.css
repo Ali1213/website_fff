@@ -1,0 +1,77 @@
+.con {
+  width: 1160px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+.con .leftList {
+  float: left;
+  width: 650px;
+  margin-right: 100px;
+}
+.con .leftList li {
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.con .leftList li .title {
+  font-size: 18px;
+  color: #333;
+  margin: 20px 0;
+}
+.con .leftList li .cont {
+  position: relative;
+}
+.con .leftList li .cont .leftImg {
+  width: 164px;
+  height: 122px;
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+}
+.con .leftList li .cont .leftImg img {
+  width: 100%;
+}
+.con .leftList li .cont .rightFont {
+  width: 450px;
+  overflow: hidden;
+  float: right;
+}
+.con .leftList li .cont .rightFont .topDescription {
+  font-size: 14px;
+  color: #333;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+.con .leftList li .cont .rightFont .bottomTime {
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  color: #666;
+}
+.con .leftList li .cont .rightFont .bottomTime .hover:hover {
+  cursor: pointer;
+  color: #187FC3;
+}
+.con .leftList li .cont .rightFont .bottomTime .hover:hover .qrcode {
+  display: block;
+}
+.con .leftList li .cont .rightFont .bottomTime .qrcode {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  right: -90px;
+  display: none;
+}
+.con .leftList li .cont .rightFont .bottomTime .qrcode img {
+  width: 100%;
+  height: 100%;
+}
+.con .rightBar {
+  float: right;
+  width: 300px;
+}

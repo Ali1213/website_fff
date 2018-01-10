@@ -1,0 +1,99 @@
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; }
+img {border:0;	vertical-align:middle;}
+table { border-collapse:collapse; }
+body {
+    font:14px/1.2 MicrosoftYaHei,"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    color:#666;
+    background:#fff;
+    min-width: 1200px;
+}
+a{color:#666; text-decoration:none; }
+h1,h2,h3,h4,h5,h6{text-decoration:none;}
+s,i,em{font-style:normal;text-decoration:none;}
+div{
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+.col-red{color: #C81623!important;}
+
+/*公共类*/
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont1 {
+  font-family: "iconfont1" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont3 {
+  font-family:"iconfont3" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  /* IE9*/
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+  url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+@font-face {
+  font-family: 'iconfont1';
+  src: url('../font/iconfont1.eot');
+  /* IE9*/
+  src: url('../font/iconfont1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont1.woff') format('woff'), /* chrome、firefox */
+  url('../font/iconfont1.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('../font/iconfont1.svg#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+@font-face {font-family: "iconfont3";
+  src: url('../font/iconfont3.eot?t=1466685057'); /* IE9*/
+  src: url('../font/iconfont3.eot?t=1466685057#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont3.woff?t=1466685057') format('woff'), /* chrome, firefox */
+  url('../font/iconfont3.ttf?t=1466685057') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/iconfont3.svg?t=1466685057#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+/*输入信息表单*/
+#baseForm , #baseForm1{
+  display:none;
+}
+

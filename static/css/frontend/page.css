@@ -1,0 +1,58 @@
+.content{
+    position:relative;
+    padding-bottom:100px;
+}
+#page{
+    color:#222438;
+    font-size:14px;
+    font-weight:bold;
+    margin-right:50px;
+    line-height:30px;
+    position:absolute;
+    bottom:10px;
+    right:50px;
+}
+#page::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+#pageNumber,#searchPage{
+    float:left;
+}
+#page a,#page span{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    border:1px solid #222438;
+    border-radius:4px;
+    text-align:center;
+    cursor:pointer;
+    margin:2px;
+}
+#page .jp-current{
+    background-color:#222438;
+    color:white;
+}
+#page .jp-previous,#page .jp-next{
+    width:60px;
+}
+#page input{
+    width:18px;
+    height:18px;
+    background-color:lightgrey;
+    border-radius:4px;
+    padding:6px;
+    border:1px solid lightgrey;
+    margin-left:50px;
+    margin-top:2px;
+}
+#page button{
+    width:50px;
+    height:30px;
+    border:1px solid #222438;
+    border-radius:4px;
+    background-color:#222438;
+    color:white;
+    margin-top:2px;
+}

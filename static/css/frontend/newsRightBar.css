@@ -1,0 +1,35 @@
+.newsRightBar {
+  line-height: 1.2;
+}
+.newsRightBar .title {
+  color: #187FC3;
+}
+.newsRightBar li {
+  margin-top: 20px;
+}
+.newsRightBar li .hotImg {
+  width: 100px;
+  height: 71px;
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+}
+.newsRightBar li .hotImg img {
+  width: 100%;
+}
+.newsRightBar li .hotFont {
+  float: right;
+  width: 180px;
+  height: 70px;
+  position: relative;
+}
+.newsRightBar li .hotFont .hotTitle {
+  font-size: 14px;
+  color: #333;
+}
+.newsRightBar li .hotFont .hotTime {
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  color: #999;
+}

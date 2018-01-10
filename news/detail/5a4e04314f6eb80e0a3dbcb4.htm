@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>90天创新成功法则  -理享家</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="理享家">
+    <script src="../../static/js/public/jquery-3.1.1.min.js"></script>
+     
+<meta name="keywords" content="理财咨询,基金理财资讯,最新金融资讯,金融资讯平台,现货时报财富资讯,苏宁财富资讯,东方财富资讯,今日财经资讯" />
+<meta name="description" content=每家公司都会在日常经营管理中有所创新，但极少公司有一套有序、稳定的方法进行创新。绝大多数情况是，许多重大创新是由于个人才能或机缘巧合。 />
+<link rel='stylesheet' href='../../static/css/frontend/news1.css' />
+
+    <link rel="shortcut icon" href="../../static/img/frontend/public/icon.png"/>
+    <link rel="stylesheet" href="../../static/css/frontend/base.css"/>
+    <link rel="stylesheet" href="../../static/css/frontend/header.css"/>
+    <link rel="stylesheet" href="../../static/css/frontend/footer.css"/>
+    <link rel='stylesheet' href='../../static/css/frontend/form.css'/>
+    <script name="baidu-koubei-verification" src="../../ikoubei.baidu.com/embed/8cd3a98723f1342aaa88d882864aa33e.JS"></script>
+    <style>
+        .content {
+            position: relative;
+        }
+
+        .link {
+            width: 1200px;
+            margin: 0 auto;
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: normal;
+            position: absolute;
+            top:20px;
+            left:50px;
+            visibility:hidden;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div id="baseForm">
+    <div class="form form1">
+    <div class="mask"></div>
+   <form class="formBox" id="form" method="post">
+      <div class="formTitle">
+         <img src="../../static/img/frontend/form/formTop.png" />
+      </div>
+      <ul class="formCont">
+         <li>
+            <span>如何称呼您<i>*</i></span>
+            <input type="text" name="name" id="input_name">
+         </li>
+         <li>
+            <span>性别<i>*</i></span>
+            <span class="mr"><input type="radio" name="sex" checked value="男" /> 男</span>
+            <span><input type="radio" name="sex" value="女"> 女</span>
+         </li>
+         <li>
+            <span>联系电话<i>*</i></span>
+            <input type="phone" name="phone" id="input_phone">
+         </li>
+         <!--<li>-->
+            <!--<span>电子邮箱<i>*</i></span>-->
+            <!--<input type="email" name="email" required>-->
+         <!--</li>-->
+         <li>
+            <span>您的微信</span>
+            <input type="text" name="wechat" id="input_wechat">
+         </li>
+         <li class="tips">
+            <b>!</b>我们会在第二个工作日9:00-18:00与您联系
+         </li>
+         <li class="btn">
+            <span class="form1Cancel" id="formCancel">取消</span>
+            <button type="submit" class="form1Submit">提交</button>
+         </li>
+      </ul>
+   </form>
+</div>
+
+
+
+</div>
+<div id="baseForm1">
+    <div class="form form2">
+    <div class="mask"></div>
+   <form class="formBox" id="form1" method="post">
+      <div class="formTitle">
+         <img src="../../static/img/frontend/form/formTop.png" alt="">
+      </div>
+      <ul class="formCont">
+         <h3>被保人信息</h3>
+          <li>
+              <span>保险公司</span>
+              <input type="text" value="" name="company" disabled>
+          </li>
+          <li>
+              <span>保险产品</span>
+              <input type="text" value="" name="product" disabled>
+          </li>
+          <li style="margin: 19px 73px;">
+              <span>认购货币</span>
+              
+          </li>
+          <li>
+              <span>缴费年限</span>
+              <select name="moneyYear">
+                  
+              </select>
+          </li>
+          <li>
+              <span style="padding-top: 13px;float: left;">年缴保费<br><b style="font-weight: normal;">(单位：万)</b></span>
+              <input type="text" name="money" style="margin-left: 4px;">
+          </li>
+          <li>
+              <span>姓名</span>
+              <input type="text" name="insuredName">
+          </li>
+          <li>
+            <span>性别</span>
+            <span class="mr"><input type="radio" name="insuredGender" checked required value="男"> 男</span>
+            <span><input type="radio" name="insuredGender" value="女"> 女</span>
+         </li>
+          <li>
+            <span>吸烟</span>
+            <span class="mr"><input type="radio" name="smoke" checked required value="是"> 是</span>
+            <span><input type="radio" name="smoke" value="否"> 否</span>
+         </li>
+          <li>
+              <span>出生日期</span>
+              <input name="birthday" type="date" value="1994-05-20">
+          </li>
+          <h3>您的信息</h3>
+         <li>
+            <span>如何称呼您<i>*</i></span>
+            <input type="text" name="insureName" required>
+         </li>
+         <li>
+            <span>您的邮箱<i>*</i></span>
+            <input type="email" name="insureEmail" required>
+         </li>
+          <li>
+            <span>您的手机<i>*</i></span>
+            <input type="phone" name="insurePhone" required>
+         </li>
+         <li>
+            <span>您的微信</span>
+            <input type="text" name="insureWechat">
+         </li>
+         <li class="tips">
+            <b>!</b>我们会在第二个工作日9:00-18:00与您联系
+         </li>
+         <li>
+            <span class="form1Cancel" id="form1Cancel">取消</span>
+            <button type="submit" class="form1Submit">提交</button>
+         </li>
+      </ul>
+   </form>
+</div>
+
+
+
+</div>
+<div class="bg">
+     	<div class="header clear">
+		<div class="inner">
+			<div class="logo">
+				<a href="../../www_lxjcf_default.html"><img src="../../static/img/frontend/public/logo.png" alt="理享家" title="理享家"  /></a>
+			</div>
+			<p>值得信赖的海外资产配置服务平台</p>
+			<ul>
+				<li>
+					<i></i>010-57262841
+				</li>
+				<li class="consult">立即咨询</li>
+			</ul>
+		</div>
+	</div>
+	<div class="nav clear">
+		<div class="inner">
+			<ul>
+				<li >
+					<a href="../../www_lxjcf_default.html" >首页</a>
+				</li>
+				<li >
+					<a href="../../www.lxjcfbx.com/product.htm">海外保险</a>
+				</li>
+				<li >
+					<a href="../../www.lxjcfbx.com/invest.htm">投资移民</a>
+				</li>
+				<li >
+					<a href="../../fund.htm">海外基金</a>
+				</li>
+				<li >
+					<a href="../../news.htm">新闻资讯</a>
+				</li>
+				<li >
+					<a href="../../www.lxjcfbx.com/about.htm">平台介绍</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+ 
+    
+
+  <div class="con clearfix">
+     <ul class="leftCont">
+
+        <div class="title">90天创新成功法则  </div>
+        <div class="time"><span>2018-01-04 </span> | <span>理享家</span></div>
+        <div class="cont">
+
+        </div>
+
+
+     </ul>
+     <div class="rightBar">
+        
+<link rel='stylesheet' href='../../static/css/frontend/newsRightBar.css' />
+
+
+<ul class="newsRightBar clearfix">
+   <li class="title">热门内容</li>
+   <li><a href="http://www.1meeting.cn/mobile/customactive/&id=5880" target="_blank"><img src="../../static/img/vedio/1.png" alt="理享家"></a></li>
+   <li><a href="../../c.m.163.com/news/l/119302.html" target="_blank"><img src="../../static/img/vedio/2.png" alt="理享家"></a></li>
+   
+   <li class="clearfix">
+      
+      <a href="5a4ca8a84f6eb80e0a3dbcaa.htm">
+      
+      <div class="hotImg">
+         <img src="../../api.careerdream.org/storage/v1/documents/68LHMYmJLeyk03vz.jpg" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">友邦最新重疾——加裕智倍保全解读</div>
+         <div class="hotTime">2018-01-03 </div>
+      </div>
+      </a>
+   </li>
+
+   
+   <li class="clearfix">
+      
+      <a href="5a378e6f4f6eb864fa5c9c5d.htm">
+      
+      <div class="hotImg">
+         <img src="../../api.careerdream.org/storage/v1/documents/alRompl0fmUxoKBE.jpg" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">活动预告│家庭资产传承与财富保全</div>
+         <div class="hotTime">2017-12-18</div>
+      </div>
+      </a>
+   </li>
+
+   
+   <li class="clearfix">
+      
+      <a href="5a2e4bd34f6eb864fa5c9c26.htm">
+      
+      <div class="hotImg">
+         <img src="../../api.careerdream.org/storage/v1/documents/RfSHRKKTPkKDCirR.png" alt="理享家" />
+      </div>
+      <div class="hotFont">
+         <div class="hotTitle">活动预告│储蓄分红产品详细对比及方案推荐</div>
+         <div class="hotTime">2017-12-11</div>
+      </div>
+      </a>
+   </li>
+
+   
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </div>
+  </div>
+    <script>
+    window.onload = function(){
+        var content = "&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;每家公司都会在日常经营管理中有所创新，但极少公司有一套有序、稳定的方法进行创新。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;绝大多数情况是，许多重大创新是由于个人才能或机缘巧合。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;大多数管理者都愿意大方承认，自己公司的创新引擎运转并不理想。但创立一个统领全局、运转稳定的创新部门，似乎是极其艰巨的任务。很多情况的确如此：公司需要调整组织架构、引进人才，并大笔投入——宝洁公司21世纪初打造的“创新工厂”即是一例。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;img data-s=&#34;300,640&#34; data-type=&#34;jpeg&#34; data-src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/lxslyr6ibEMt2jtyfnyQCic5Dgm0dWYna9MFHJjYfXp9ib4Thw5noWP5kcVVQTD7LgudqYUa8l5X3mXX3G4KT603A/0?wx_fmt=jpeg&#34; data-copyright=&#34;0&#34; class=&#34;&#34; data-ratio=&#34;0.5623529411764706&#34; data-w=&#34;850&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/lxslyr6ibEMt2jtyfnyQCic5Dgm0dWYna9MFHJjYfXp9ib4Thw5noWP5kcVVQTD7LgudqYUa8l5X3mXX3G4KT603A/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&#34; data-fail=&#34;0&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; height: auto !important; word-wrap: break-word !important; width: auto !important; visibility: visible !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;过去10年来，我们一直在帮助全球各地的企业加强创新能力。这项工作带来的重要发现是，&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;在权宜、临时性创新和打造结构复杂的大规模创新工厂之外，企业还有一个中间选项：搭建最小可行创新系统（MVIS）。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;“最小可行创新系统”概念由精益创业领域中的“最小可行产品”演化而来，后者指以最小成本快速开发的产品原型。MVIS是一个基本架构，企业可在其基础上发展出运行稳定、符合战略需求的创新部门；它是一种机制，能让好创意得到关注、鼓励、分享、评估、重视，得到资源并进一步开发，最终收获回报和赞誉。搭建MVIS并不需要长年累月的努力，企业也无需对运营方式做重大调整或重新分配重要资源。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; font-size: 15px; word-wrap: break-word !important;&#34;&gt;打造MVIS最需要获得公司高层、尤其是CEO或首席创新官的重视。无需庞大预算，也无需另行招聘，只要其他高管和相关员工配合，你就能在90天内通过下述4个基本步骤搭建起MVIS。新的创新系统将快速取得成效，帮助你建立信心，为未来成就奠定基础。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;section class=&#34;&#34; style=&#34;color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; margin: 0.8em 0px 0.5em; padding: 0px; max-width: 100%; border: 0px; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;display: inline-block; margin: 0px; padding: 0px; max-width: 100%; width: 1.3em; height: 1.3em; border-radius: 50%; text-align: center; line-height: 1.3; font-size: 2.8em; font-family: inherit; text-decoration: inherit; color: rgb(255, 255, 255); background-color: rgb(199, 45, 20); border-color: rgb(249, 110, 87); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;1&lt;/section&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;display: inline-block; margin: 0px 0px 0px 0.7em; padding: 0.3em 0px 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; line-height: 1.4; font-size: 1.5em; font-family: inherit; text-decoration: inherit; color: rgb(42, 52, 58); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;明确创新方向&lt;/section&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px 0px 0px 0.2em; padding: 0px; max-width: 100%; line-height: 1.4; font-size: 1em; font-family: inherit; text-decoration: inherit; color: rgb(135, 139, 140); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;第1天到第30天&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&#34;margin: 0px; padding: 0px; max-width: 100%; width: 0px; height: 0px; clear: both; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-bottom: 0px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;从战略角度看，创新方式可归为两大类：&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;一类寻求在原有业务框架内完善产品和服务、优化内部运营；另一类则通过改变商业模式、找到新客户群或进入新市场，建立新的增长方式。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;MVIS对这两类创新都适用；但创新部门管理者必须首先明确两类创新的区别。正因为对此认识不足，很多企业或低估延续性创新的重要性，或对新增长计划缺乏耐心、期待过高。为方便讨论，本文将第一类创新称为“核心创新”，将第二类创新称为“新增长创新”。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;如果目标是强化核心业务，创新项目应紧贴现行战略，并在组织结构大框架内运行。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;这些项目需要大规模投入，并能在较短周期内带来显著回报。很可能你的公司目前所有创新项目都属于核心创新，但现有运营方式和核心创新所能创造的价值，不足以让企业实现增长目标。因此新增长创新势在必行。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;新增长创新包括向现有客户提供新产品或补充产品、进入相邻品类或相邻地域市场，或以全新方式开发产品等，这将拓展企业战略边界。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;企业当前盈利能力距离增长目标越远，新增长创新就越需要将企业带离业务核心，产生显著回报所需时间也就越长。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;你可以用不超过两周时间，先匡算出正常情况下未来5年的营收和利润。这个数字与目标值的差，即为你的企业与增长目标间的距离。据此你能大致判断，应如何在两类创新上分配时间精力和资源，以及新增长创新的力度应有多大。如果离增长目标差距较大，你可以将新增长方案分组，从不同方向驱动未来增长；由于这是最小可行创新，我们建议不超过3组。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;section class=&#34;&#34; style=&#34;color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; margin: 0.8em 0px 0.5em; padding: 0px; max-width: 100%; border: 0px; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;display: inline-block; margin: 0px; padding: 0px; max-width: 100%; width: 1.3em; height: 1.3em; border-radius: 50%; text-align: center; line-height: 1.3; font-size: 2.8em; font-family: inherit; text-decoration: inherit; color: rgb(255, 255, 255); background-color: rgb(199, 45, 20); border-color: rgb(249, 110, 87); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;2&lt;/section&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;display: inline-block; margin: 0px 0px 0px 0.7em; padding: 0.3em 0px 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; line-height: 1.4; font-size: 1.5em; font-family: inherit; text-decoration: inherit; color: rgb(42, 52, 58); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;瞄准战略机遇&lt;/section&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px 0px 0px 0.2em; padding: 0px; max-width: 100%; line-height: 1.4; font-size: 1em; font-family: inherit; text-decoration: inherit; color: rgb(135, 139, 140); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;第20天到第50天&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-bottom: 0px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;宝洁、戈尔、苹果等精于创新的企业都有完善的流程，按短期和长期增长需要协调发展各类创新。MVIS也有这个功能，但更简洁：&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;高效利用有限资源，引导创新参与者将工作热情投入到几个重点战略机遇区上。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;这些战略机遇区应契合新增长需求，并帮助企业显著缩小与增长目标间的差距。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;如何圈定战略机遇区？你可以用数月甚至数年时间进行详尽分析，但我们当然不建议这样做。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;我们建议你与几位可能实际参与创新项目的高管一道，用3周时间进行调研。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;每人应拜访至少10家客户，了解未满足的需求，寻找新增长创新的基础；还应调查本行业及相邻行业的最新发展动态。此外，应充分关注本企业内部已经出现的新增长创新萌芽，从中你可能发现此前未得到高层重视的战略目标。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;接下来，召集高管团队，分享调研成果，并要求每人按照以下条件圈定3个战略机遇区：&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;很多潜在客户有某种共同需求，而市场上没有很好的解决方案。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;出现一种新技术，能让客户便捷、低成本地满足需求；或经济、监管、社会环境出现重大变化，让这种需求更加迫切。本企业拥有某些难以复制的特殊能力或资源，能抢先抓住机遇。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; font-size: 15px; word-wrap: break-word !important;&#34;&gt;严格遵守上述标准，企业就能避开常见的陷阱，或不真正具备优势就盲目进入新市场等。通过划定战略机遇区，企业能把此前可能处于边缘的创新举措引入组织的战略中心；另一方面，这也能帮助企业做减法、明确战略重点。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;section class=&#34;&#34; style=&#34;color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; margin: 0.8em 0px 0.5em; padding: 0px; max-width: 100%; border: 0px; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;display: inline-block; margin: 0px; padding: 0px; max-width: 100%; width: 1.3em; height: 1.3em; border-radius: 50%; text-align: center; line-height: 1.3; font-size: 2.8em; font-family: inherit; text-decoration: inherit; color: rgb(255, 255, 255); background-color: rgb(199, 45, 20); border-color: rgb(249, 110, 87); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;3&lt;/section&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;display: inline-block; margin: 0px 0px 0px 0.7em; padding: 0.3em 0px 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; line-height: 1.4; font-size: 1.5em; font-family: inherit; text-decoration: inherit; color: rgb(42, 52, 58); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;组织专项团队&lt;/section&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px 0px 0px 0.2em; padding: 0px; max-width: 100%; line-height: 1.4; font-size: 1em; font-family: inherit; text-decoration: inherit; color: rgb(135, 139, 140); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;第20天到第70天&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&#34;margin: 0px; padding: 0px; max-width: 100%; width: 0px; height: 0px; clear: both; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-bottom: 0px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;由于目标是建立最小可行创新系统，你可能考虑让项目参与者留在原部门，而不单独组建创新团队。但注意：&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;风险投资机构参与的创业项目75%血本无归；不到一半初创企业能活过3年。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;这些创业者都投入了全部心血，结果尚且如此，一个兼职创新团队又能有多大成功几率？&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;即便是“最小”可行创新系统，也需要至少有一个人每天一睁眼就只琢磨创新。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;由于你还有其他高层管理职责，这不一定是你本人；但创新负责人应直接向你汇报。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; font-size: 15px; word-wrap: break-word !important;&#34;&gt;但参与者也不宜太多。我们建议一般MVIS从小规模开始；如果一开始即建立规模较大的创新部门，有可能导致虚报成果、官僚低效。考虑到创新进程中试错和修正不可避免，我们建议MVIS同步推进至少两个创新方案。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; font-size: 15px; word-wrap: break-word !important;&#34;&gt;根据经验，企业在这个阶段可能遭遇两个障碍：一是缺乏资源，二是缺乏有相关经验的人手。下面将给出解决方法：&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;em style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;font-weight: 700; margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;释放资源。&lt;/span&gt;&lt;/span&gt;&lt;/em&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;如果遇到第一个障碍，那么是时候把众多“地下”创新项目暴露在阳光下了，其中很可能有半死不活、毫无未来的“僵尸”项目：有些公司不明智地为核心创新投入太多资源；有些公司的新增长创新项目未经正式批准，只得游走于组织的黑暗角落。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; color: rgb(0, 150, 255); line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;要想锁定这些“僵尸”，先统计至少有一名兼职参与者的创新项目，了解这些项目各自针对的目标市场并估算其盈利空间，再分别列出当前投入到每个项目的资源。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 0, 0); word-wrap: break-word !important;&#34;&gt;然后分析：哪些项目能优化核心战略，哪些着重探索战略机遇区？应该不难找出在两方面均无贡献、白白浪费资源的项目。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; font-size: 15px; word-wrap: break-word !important;&#34;&gt;判断哪些项目是“僵尸”很容易，但真正清理它们可能很难。管理者可推出“僵尸大赦”政策，鼓励那些格局太小、不符合战略需要或风险太高的项目自行终止。主动终止创新项目的员工不会受到惩罚，反而会得到英雄的待遇。一轮“大赦”释放出的资源可能就足够MVIS开始运转。为确保创新系统正常运行，可以每几年进行一次清理。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;em style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;font-weight: 700; margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;在实践中学习。&lt;/span&gt;&lt;/span&gt;&lt;/em&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;如果你的企业刚开始重视创新，可能没人具备相关经验。不另行招聘，如何在90天内搭建起MVIS？多年来，创新理论家和实践者一直努力，为新增长创新寻找有序流程，使之像制造和营销成熟产品一样稳定可靠。他们留下了一笔宝贵财富。财捷集团（Intuit）、先正达（Syngenta）、通用电气等企业都拥有完善的创新系统，将最佳创新实践传播到组织的每个角落。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;在这些企业，创新参与者既进行理论学习，又在产品实际开发中获得第一手经验。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;新组建的MVIS团队可采用类似方法，在实践中学习创新。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; font-size: 15px; word-wrap: break-word !important;&#34;&gt;有经验的创新者使用流程备忘清单来确认所有重要步骤和事项，建议新手也这样做。创新团队应大致了解创新领域的重要文献，然后根据自身情况制作备忘清单，并贴在墙上以便参考。团队成员应在实际解决问题的过程中培养技能，但备忘清单能保证创新系统走在正确轨道上。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;section class=&#34;&#34; style=&#34;color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; margin: 0.8em 0px 0.5em; padding: 0px; max-width: 100%; border: 0px; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;display: inline-block; margin: 0px; padding: 0px; max-width: 100%; width: 1.3em; height: 1.3em; border-radius: 50%; text-align: center; line-height: 1.3; font-size: 2.8em; font-family: inherit; text-decoration: inherit; color: rgb(255, 255, 255); background-color: rgb(199, 45, 20); border-color: rgb(249, 110, 87); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;4&lt;/section&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;display: inline-block; margin: 0px 0px 0px 0.7em; padding: 0.3em 0px 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; line-height: 1.4; font-size: 1.5em; font-family: inherit; text-decoration: inherit; color: rgb(42, 52, 58); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;创建管理制度&lt;/section&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px 0px 0px 0.2em; padding: 0px; max-width: 100%; line-height: 1.4; font-size: 1em; font-family: inherit; text-decoration: inherit; color: rgb(135, 139, 140); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;第45天到第90天&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&#34;margin: 0px; padding: 0px; max-width: 100%; width: 0px; height: 0px; clear: both; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-bottom: 0px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;如果你的企业已有严密的规划和预算体系，一定要将核心创新项目纳入其中。但新增长创新项目的管理方式应更接近风险投资的项目管理。任何一位曾获风投支持的创业企业家都会告诉你，&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;他们的运营规则与传统企业的预算管理制度同样严格；但与传统企业不同，创业企业更侧重管理战略不确定性。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;首先，你应建立一个高管评议小组，赋予它启动、终止或重新定向新增长项目的决策权。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;但这个小组不应是高管团队的简单复制，否则小组成员会回到他们习惯的短期主义思维方式，用日常经营的诉求干扰战略创新。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;创新项目评议小组可借鉴风投项目管理的标准操作程序：&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;风投合伙人经常对投资项目有分歧；但资深投资人会告诉你，最成功的项目都是起初分歧最大的。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;MVIS中每个项目都应至少有一名高管坚定支持，但最初不必强求共识。风险投资人的投资决策极其审慎，但一旦完成入股，如何使用资金基本都由所投企业CEO做主。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;企业MVIS管理团队应在一定预算限度内，给予各创新项目自主权。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;风投支持的初创公司一般不采用传统的季度或年度预算体系，而是解决一个核心风险后获得一轮追加投资。当然，风险投资人无须考虑如何将所投公司整合进更大的组织架构；企业创新项目管理者则有责任加强组织整体创新能力。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;搭建MVIS进行创新的好处是，&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;可以不必对企业原有业绩评估、预算和供应商管理体系大动手术，但同时要求管理者能特事特办、灵活变通。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;例如，某位员工业绩出色，但因为所参与创新项目营收未满足人力部门设定的晋升条件，有可能失去升职机会。而这名员工做的实际工作绝不少于满足升职条件的人；而且很明显，如果加强管理，她参与的项目能带来显著长期回报。最终她的部门领导介入，修正了HR的决定。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; font-size: 15px; word-wrap: break-word !important;&#34;&gt;管理者大概不愿总进行这种交涉，所以可能希望将MVIS整合进组织架构中。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; font-family: sans-serif; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-bottom: 0px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;section class=&#34;&#34; style=&#34;display: inline-block; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; margin: 0.8em 0px 0.5em; padding: 0px; max-width: 100%; border: 0px; line-height: 1; overflow: hidden; word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; border-bottom: 1px solid rgb(199, 45, 20); font-size: 1.4em; font-family: inherit; text-decoration: inherit; color: rgb(255, 255, 255); border-top-color: rgb(199, 45, 20); border-right-color: rgb(199, 45, 20); border-left-color: rgb(199, 45, 20); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;display: inline-block; margin: 0px; padding: 0.1em; max-width: 100%; height: 1.2em; line-height: 1em; font-size: 1.4em; font-family: inherit; background-color: rgb(199, 45, 20); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;M&lt;/section&gt;&lt;/section&gt;&lt;section class=&#34;&#34; style=&#34;display: inline-block; margin: 0px; padding: 0.2em; max-width: 100%; line-height: 1; font-size: 1em; font-family: inherit; text-decoration: inherit; color: rgb(42, 52, 58); word-wrap: break-word !important;&#34;&gt;&lt;section class=&#34;&#34; style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;VIS规模化&lt;/section&gt;&lt;/section&gt;&lt;/section&gt;&lt;section style=&#34;margin: 0px; padding: 0px; max-width: 100%; width: 0px; height: 0px; clear: both; word-wrap: break-word !important;&#34;&gt;&lt;/section&gt;&lt;/section&gt;&lt;p style=&#34;margin-bottom: 0px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; font-family: Times; text-align: justify; word-wrap: break-word !important;&#34;&gt;90天过后，你应该已明确创新方向、划定战略机遇区、组建首个项目团队，并创建项目管理制度，让创新系统走上正轨。现在MVIS搭建完毕，创新项目有望收到回报（根据具体环境，可能需要数月或更长时间），你需要开始考虑后面的事情。&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;首先，考虑将MVIS中运转良好的机制固化、制度化。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;这些举措似乎有官僚化之嫌，但它们正是企业创新部门成熟壮大的表现。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;接下来，考虑建立专门团队承担某些创新任务。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;例如小公司可安排一名员工担任“情报员”，负责跟踪市场最新动态；大公司可建立业务拓展团队，尝试为新增长创新项目寻找外部盟友和合作伙伴。或者可以建立小组，专门用民族志方法进行市场研究，或拓展项目快速成型技能。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;最后，MVIS的工作应能指明组织内部重大创新障碍。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;由于现行预算、激励和战略规划体系更注重守成而非开拓，常常会对创新构成阻碍。重塑这些体系或另建平行架构并非易事，但这对在组织内推广创新举措非常重要。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 19px; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;&lt;br style=&#34;margin: 0px; padding: 0px; max-width: 100%; word-wrap: break-word !important;&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin-right: 8px; margin-bottom: 0px; margin-left: 8px; color: rgb(62, 62, 62); font-size: 16px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; text-align: justify; font-family: Times; line-height: 1.75em; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; font-size: 15px; word-wrap: break-word !important;&#34;&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;记住，MVIS中的S代表“系统”：创建MVIS，上述4个步骤必须齐备，否则不如不做。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; color: rgb(0, 150, 255); word-wrap: break-word !important;&#34;&gt;人力方面的投入绝不能打折扣：如果没人专职负责新增长创新，你的企业就是在忽视新增长创新。&lt;/span&gt;&lt;span style=&#34;margin: 0px; padding: 0px; max-width: 100%; letter-spacing: 0px; word-wrap: break-word !important;&#34;&gt;如何对待失败比如何奖励成功更重要：惧怕和隐藏失败会滋生“僵尸”项目，耗尽本可用于创新的资源。MVIS不会让企业一夜之间变成皮克斯（Pixar）或亚马逊，但它能实实在在帮助管理者更有把握、更高效地对未来增长进行关键投资。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"
+        var temp = document.createElement("div");
+        temp.innerHTML = content;
+        var output = temp.innerText || temp.textContent;
+        temp = null;
+        var cont = document.querySelector('.cont')
+        cont.innerHTML = output;
+
+        $(document).ready(function() {
+		    $(".nav").find("li").eq(4).addClass("nav-select");
+	    });
+    }
+    </script>
+
+       <!-- 悬浮手机 -->
+  <div class="fix-phone consult"></div>
+
+  <div class="footer">
+    <div class="foo-content clear">
+      <div class="inner">
+        <ul>
+          <li class="title">理享家</li>
+          <li><a href="../../www.lxjcfbx.com/about.htm">关于理享家</a></li>
+          <li><a href="../../about_2.htm">常见问题</a></li>
+          <li><a href="../../about_3.htm">法律声明</a></li>
+        </ul>
+        <ul>
+          <li class="title">联系我们</li>
+          <li>电话：010-57262841</li>
+          <li>服务时间：9:00-18:00</li>
+        </ul>
+        <div class="right">
+          <div class="code"><img src="../../static/img/frontend/public/code.jpg" alt="二维码-理享家" /></div>
+          <p>扫码二维码</p>
+          <p>咨询海外资产咨询顾问</p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">版权所有 Copyright©2017 理享家 Asset Pro Co.Limited. All rights reserved</div>
+  </div>
+  <script>
+      (function(){
+          var bp = document.createElement('script');
+          var curProtocol = window.location.protocol.split(':')[0];
+          if (curProtocol === 'https'){
+              bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+          }
+          else{
+              bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+          }
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(bp, s);
+      })();
+  </script> 
+</div>
+<script src="../../static/js/frontend/form.js"></script>
+ 
+</body>
+</html>
