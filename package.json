@@ -1,0 +1,23 @@
+{
+  "name": "caifu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ali1213/website_fff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ali1213/website_fff/issues"
+  },
+  "homepage": "https://github.com/Ali1213/website_fff#readme",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-static": "^4.0.2"
+  }
+}
